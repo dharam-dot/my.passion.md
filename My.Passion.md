@@ -1,2 +1,2 @@
 My Passion is Travel.
-I tarveled Pan india like (Banglore,Vizag,raipur,Bhopal)
+I traveled Pan india like (Banglore,Vizag,raipur,Bhopal,Mathura,Brandaban,Indore,Balaghat,Mandla,Paryagraaj, Reva,Singrauli,Ranikhet,Nainital,)
