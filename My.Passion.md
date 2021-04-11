@@ -35,9 +35,19 @@ This acquired skill helps when we work with a distributed global team. Travellin
                    2. Dwarahat
                    3. The Kumaon Regimental Centre
                    4. Rani Jheel
-                   
+---
+# How to reach Ranikhet
+🚌
+🚐
+🚇
+🚎
+🚍
+🚲
+
 ---
 
+> “Nothing is impossible, the word itself says, ‘I’m possible’!”
 
+  ~Impossible~ I’m possible
 
 
