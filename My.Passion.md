@@ -47,14 +47,14 @@ The nearest airport to Ranikhet is **Pantnagar**, situated around 109 km away. T
 ## BY RAIL :train:
 **Kathgodam** is the nearest railway station to Ranikhet, located at a distance of 75 km. There are several trains that pass through this railway station from almost all the major cities. Upon reaching the station, **cab services** are all time available to finally reach Ranikhet.
 
-BY ROAD :bus: :taxi: :bike:
+## BY ROAD :bus: :taxi: :bike:
 Ranikhet establishes a viable connection through roads at all seasons, to places like **Haldwani, Bhowali and Khairna.** 
 There are direct **buses** available from **Delhi (359 km)**, **Nainital (56 km)**, **Kathgodam (75 km)** and **Ramnagar (96 km).** 
 **Cab** facility from cities like **Haldwani** and **Nainital** are also available for Ranikhet.
 
 
-> “Nothing is impossible, the word itself says, I'm possible!”
+> **“Nothing is impossible, the word itself says, I'm possible!”**
 
-  ~Impossible~ I'm possible
+ ### ~Impossible~ I'm possible
 
 
