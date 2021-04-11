@@ -54,7 +54,7 @@ The nearest airport to Ranikhet is **Pantnagar**, situated around 109 km away. T
 
 ---
 
-## BY ROAD :bus: :taxi: :bike:
+## BY ROAD :bus: :taxi:
 Ranikhet establishes a viable connection through roads at all seasons, to places like **Haldwani, Bhowali and Khairna.** 
 There are direct **buses** available from **Delhi (359 km)**, **Nainital (56 km)**, **Kathgodam (75 km)** and **Ramnagar (96 km).** 
 **Cab** facility from cities like **Haldwani** and **Nainital** are also available for Ranikhet.
