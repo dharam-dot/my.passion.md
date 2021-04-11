@@ -23,3 +23,14 @@ This acquired skill helps when we work with a distributed global team. Travellin
 ![ranikhet](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Ranikhet_in_winters.jpg/250px-Ranikhet_in_winters.jpg)
 
 **Ranikhet** is a hill station in Uttarakhand State, northern India. It’s known for its views of the Himalayas. Hundreds of bells adorn Jhula Devi Temple, dedicated to the Hindu goddess Durga. Fruit trees grow on the terraced orchards of Chaubatia Gardens, with views of peaks including Nanda Devi.
+
+## Famous Places in Ranikhet
+                   1. Jhula Devi Temple
+                   2. Dwarahat
+                   3. The Kumaon Regimental Centre
+                   4. Rani Jheel
+                   
+              
+
+
+
