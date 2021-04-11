@@ -15,7 +15,7 @@ This acquired skill helps when we work with a distributed global team. Travellin
 | **1** | Haidakhan Babaji Temple | Ranikhet | Uttarakhand |
 | **2** | Golf Ground | Ranikhet | Uttarakhand |
 | **3** | Jal Mahal | Narnaul | Haryana |
-| **4** | Simhachalam temple | Simhachalam  | Andra Pradesh |
+| **4** | Simhachalam temple | Simhachalam  | Andhra Pradesh |
 
 ---
 
