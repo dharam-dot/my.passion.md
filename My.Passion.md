@@ -22,7 +22,7 @@ This acquired skill helps when we work with a distributed global team. Travellin
 # Some Brief information about visited places
 
 ## Ranikhet(Uttarakhand)
-![ranikhet](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Ranikhet_in_winters.jpg/250px-Ranikhet_in_winters.jpg)
+![ranikhet](https://www.hillstationboss.com/wp-content/uploads/2016/10/ranikhet-hill-station.jpg)
 
 **Ranikhet** is a hill station in Uttarakhand State, northern India. It’s known for its views of the Himalayas. Hundreds of bells adorn Jhula Devi Temple, dedicated to the Hindu goddess Durga. Fruit trees grow on the terraced orchards of Chaubatia Gardens, with views of peaks including Nanda Devi.
 
