@@ -37,12 +37,9 @@ This acquired skill helps when we work with a distributed global team. Travellin
                    4. Rani Jheel
 ---
 # How to reach Ranikhet
-🚌
-🚐
-🚇
-🚎
-🚍
-🚲
+Ranikhet is situated in Almora district of Uttarakhand, at an altitude of 1829 m, which is around 359 km away from Delhi. 
+Though, not directly but the town is accessible through all modes of transport i.e by trains, buses, and flights from major cities.
+
 
 ---
 
