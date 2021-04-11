@@ -46,8 +46,8 @@ This acquired skill helps when we work with a distributed global team. Travellin
 
 ---
 
-> “Nothing is impossible, the word itself says, ‘I’m possible’!”
+> “Nothing is impossible, the word itself says, I'm possible!”
 
-  ~Impossible~ I’m possible
+  ~Impossible~ I'm possible
 
 
