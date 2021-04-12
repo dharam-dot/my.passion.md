@@ -6,7 +6,8 @@ Travelling makes me *independent* and build my **confidence**.
 The motto of my life is to be determined towards the software world and its development for the betterment in the standard of living of the society.
 
 ## My bio data
- **Name :** DHARAM VEER
+
+**Name :** DHARAM VEER
  
  **Contact no :** 8810631157
  
@@ -34,6 +35,7 @@ I am a suitability qualified Project Engineer with plenty experience in GPON FTT
     12.QA
 
 ### EXPERIENCE
+
 **EDGE TELECOM PVT. LTD.**(17 MAY 2018 To 07 JUNE 2020)
 
 **Designation:** Network Engineer
@@ -69,6 +71,7 @@ I am a suitability qualified Project Engineer with plenty experience in GPON FTT
 **Client:** NA
 
 ## Responsibilities
+
 Manage all four branches which are located Delhi NCR threw the company database server.
      
 ## ACADEMIC CREDENTIALS
