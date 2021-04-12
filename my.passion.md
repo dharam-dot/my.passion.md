@@ -56,10 +56,11 @@
 
 **Batson delivery hospitality PVT LTD GGN HARYANA.**(17 July 2015 To 23 Aug 2017)
 **Designation:** Operation Manager  
-**Role:**A
-**Cent: NA
+**Role:**   NA
+**Client:** NA
+## Responsibilities
+Manage all four branches which are located Delhi NCR threw the company database server.
      
-
 ## ACADEMIC CREDENTIALS
 
 | **Course** | **University** | **Year of Passing** |
