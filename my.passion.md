@@ -4,7 +4,7 @@
  **Contact no :** 8810631157
  
  **Email:** dharam.x.veer@fosteringlinux.com
- ***
+ 
  ### CAREER OBJECTIVE
  
  The motto of my life is to be determined towards the software world and its development for the betterment in the standard of living of the society.
