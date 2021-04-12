@@ -13,11 +13,11 @@ The motto of my life is to be determined towards the software world and its deve
  
  **Email:** dharam.x.veer@fosteringlinux.com
  
-### CAREER OBJECTIVE
+## CAREER OBJECTIVE
  
  The motto of my life is to be determined towards the software world and its development for the betterment in the standard of living of the society.
  
-### Professional Summary
+## Professional Summary
  
 I am a suitability qualified Project Engineer with plenty experience in GPON FTTH PROJECT 
 	  
@@ -34,7 +34,7 @@ I am a suitability qualified Project Engineer with plenty experience in GPON FTT
     11.Site Survey
     12.QA
 
-### EXPERIENCE
+## EXPERIENCE
 
 **EDGE TELECOM PVT. LTD.**(17 MAY 2018 To 07 JUNE 2020)
 
@@ -52,7 +52,7 @@ I am a suitability qualified Project Engineer with plenty experience in GPON FTT
 
 **Project:** RJIL(GPON)
 
-### Responsibilities
+## Responsibilities
 
      1.Alcatel(NOKIA) 7360 FX-4, FX-8, 7362 switches configuration & Troubleshooting
      2.Troubleshooting network issues inclusive of both protocol and hardware Basic configuration of router and switches
