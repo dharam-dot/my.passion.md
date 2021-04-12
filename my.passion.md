@@ -42,5 +42,13 @@
 
 **Project:** RJIL(GPON)
 
-
+### Responsibilities
+---
+ 1.Alcatel(NOKIA) 7360 FX-4, FX-8, 7362 switches configuration & Troubleshooting
+ 2.Troubleshooting network issues inclusive of both protocol and hardware Basic configuration of router and switches
+ 3.Knowledge in DNS server , DHCP server
+ 4.Basic knowledge in LAN ,WAN, Hardware Troubleshooting , software and Hardware installations.
+ 5.Alcatel 7210, 7210 R6 and R12 switches configuration & Troubleshooting
+ 6.Troubleshooting network issues inclusive of both protocol and hardware
+ 7.Basic configuration of router and switches
 
