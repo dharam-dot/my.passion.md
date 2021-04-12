@@ -6,7 +6,6 @@ Travelling makes me *independent* and build my **confidence**.
 The motto of my life is to be determined towards the software world and its development for the betterment in the standard of living of the society.
 
 ## My bio data
-![Dharam](‪dharam.png)
 
 **Name :** DHARAM VEER
  
@@ -18,22 +17,19 @@ The motto of my life is to be determined towards the software world and its deve
  
  The motto of my life is to be determined towards the software world and its development for the betterment in the standard of living of the society.
  
-## Professional Summary
- 
-I am a suitability qualified Project Engineer with plenty experience in GPON FTTH PROJECT 
-	  
-    1.OLT Installation
-    2.OLT commissioning
-    3.OLT Acceptance Testing
-    4.Integration of systems & upgrading systems.
-    5.Sounds knowledge of accessory units like systems, cables, fiber-optics etc.
-    6.Ability to guide and provide the technical support with respect to telecom services.
-    7.Manage installation and up gradation of systems.
-    8.Knowledge of NT card(network terminal card for up-link ports)
-    9.Knowledge of LT card(Line terminal card for downlink ports )
-    10.Voice testing and Alarm testing
-    11.Site Survey
-    12.QA
+## TECHNICAL SKILLS
+ 	  
+    1.Knowledge of Linux
+    2.Installation and up gradation of OS 
+    3.User administration and password policy management.
+    4.Having the knowledge of creating LVM.
+    5.Hosting websites ussing Apache web server.
+    6.Basic Knowledge about cluster.
+    7.Having the knowledge of DNS server.
+   
+## CURRENT ORGANISATION
+
+Currently i am member of keen & able computers pvt ltd family as a intern.(02-01-2021 to Present)
 
 ## EXPERIENCE
 
