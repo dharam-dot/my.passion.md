@@ -13,7 +13,18 @@
  
  I am a suitability qualified Project Engineer with plenty experience in GPON FTTH PROJECT 
 	  
-    *.OLT Installation
-    *.OLT commissioning
-    *.OLT Acceptance Testing
+    1.OLT Installation
+    2.OLT commissioning
+    3.OLT Acceptance Testing
+    4.Integration of systems & upgrading systems.
+    5.Sounds knowledge of accessory units like systems, cables, fiber-optics etc.
+    6.Ability to guide and provide the technical support with respect to telecom services.
+    7.Manage installation and up gradation of systems.
+    8.Knowledge of NT card(network terminal card for up-link ports)
+    9.Knowledge of LT card(Line terminal card for downlink ports )
+    10.Voice testing and Alarm testing
+    11.Site Survey
+    12.QA
+    
+
 
