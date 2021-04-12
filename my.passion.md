@@ -54,6 +54,10 @@
      
 ## ACADEMIC CREDENTIALS
 
+| **Course** | **University** | **Year of Passing** |
+| --- | --- | --- |
+| **MCA** | Uttar Pradesh Technical University | 2016 |
+| **BCA** | Mahatma Jyotiba Phule Rohilkhand University | 2013 |
      1.MCA from UPTU  in 2016.
      2.BCA from MJPRU in 2013.
 
