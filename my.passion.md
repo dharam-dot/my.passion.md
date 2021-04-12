@@ -26,6 +26,21 @@
     11.Site Survey
     12.QA
 ---
+### EXPERIENCE
+---
+**Designation:** Network Engineer
+
+**Role:** Network Implementation & Troubleshooting.
+
+**Client:** Alcatel (NOKIA)
+
+**Project:** BSNL (Phase 8)(Work As Project Engineer)
+
+**Project:** AIRTEL(GPON)
+
+**Project:** TATA SKY(GPON)
+
+**Project:** RJIL(GPON)
 
 
 
