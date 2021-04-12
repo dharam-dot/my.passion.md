@@ -14,8 +14,23 @@ This acquired skill helps when we work with a distributed global team. Travellin
  - HA Proxy 
 
 ### :nerd_face: I'm currently learning:
+ 
+ - What is open source
+ - Latex
+ - Markdown
 
+### :thinking: I want to learn:
 
+ - Ansible
+ - Docker
+ - Devops
+ 
+### Outside of coding I enjoy:
+ 
+ - Traveling :train:
+ - Playing Cricket 🏏:
+ - Playing Carrom 🔳:
+ - movies/tv shows :tv:
 
 
  
