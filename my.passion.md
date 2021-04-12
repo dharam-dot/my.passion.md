@@ -62,9 +62,13 @@
 CCNA DIPLOMA FROM NETWORKS BULL from (Sep 2017 March 2018 Not Certified)
 
 ## PERSONAL DETAILS
-**Father's Name 	         :** KUNWAR SAIN
+**Father's Name 	 :** KUNWAR SAIN
+
 **Address 	         :** H.NO 1254 , Shanti Vihar Badaun road Bareilly
+
 **DOB 		         :** 15/6/1990
+
 **Strength 	         :** Positive Attitude, Well organized person & Friendly nature according to condition.
-**Skills 		         :** Routing & Switching
+
 **Hobbies 	         :** Traveling Playing Cricket
+
