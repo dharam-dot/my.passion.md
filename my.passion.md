@@ -58,14 +58,21 @@
 | --- | --- | --- |
 | **MCA** | Uttar Pradesh Technical University | 2016 |
 | **BCA** | Mahatma Jyotiba Phule Rohilkhand University | 2013 |
-     1.MCA from UPTU  in 2016.
-     2.BCA from MJPRU in 2013.
 
 ## PROFESSIONAL COURSE
 
 CCNA DIPLOMA FROM NETWORKS BULL from (Sep 2017 March 2018 Not Certified)
 
 ## PERSONAL DETAILS
+
+| **Course** | **University** |
+| --- | --- |
+| **Father's Name** | KUNWAR SAIN |
+| **Address** | H.NO 1254 , Shanti Vihar Badaun road Bareily |
+| **DOB** | 15/6/1990 |
+| **Strengt** | Positive Attitude, Well organized person & Friendly nature according to condition. |
+| **Hobbies** | Traveling Playing Cricket |
+
 **Father's Name 	 :** KUNWAR SAIN
 
 **Address 	         :** H.NO 1254 , Shanti Vihar Badaun road Bareilly
