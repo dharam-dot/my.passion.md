@@ -8,7 +8,16 @@ This acquired skill helps when we work with a distributed global team. Travellin
 
 ![logo](https://www.zdnet.com/a/hub/i/2019/09/29/48b231e1-e790-446c-899a-e5f53296387f/tux.png)
 
- ### I'm currently working on:books:
+ ### :technologist: I'm currently working on:
+ 
+ - GitHub
+ - HA Proxy 
+
+### :nerd_face: I'm currently learning:
+
+
+
+
  
  
 
