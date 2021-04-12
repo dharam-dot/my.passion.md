@@ -6,7 +6,7 @@ Travelling makes me *independent* and build my **confidence**.
 The motto of my life is to be determined towards the software world and its development for the betterment in the standard of living of the society.
 
 ## My bio data
-![Dharam](‪https://lh3.googleusercontent.com/FPYfti7u-1RR4mJbUpc7_WqHDEyDbfh711Bk09pTx0NTB80witJuA6OsM5p_2LN5LHdO_w=s85)
+![Dharam](‪dharam.png)
 
 **Name :** DHARAM VEER
  
