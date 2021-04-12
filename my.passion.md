@@ -28,7 +28,6 @@
 
 ### EXPERIENCE
 **EDGE TELECOM PVT. LTD.**(17 MAY 2018 To 07 JUNE 2020)
-**Designation:** Network Engineer
 
 **Designation:** Network Engineer
 
@@ -55,9 +54,13 @@
      7.Basic configuration of router and switches
 
 **Batson delivery hospitality PVT LTD GGN HARYANA.**(17 July 2015 To 23 Aug 2017)
+
 **Designation:** Operation Manager  
+
 **Role:**   NA
+
 **Client:** NA
+
 ## Responsibilities
 Manage all four branches which are located Delhi NCR threw the company database server.
      
