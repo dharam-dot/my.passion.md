@@ -33,7 +33,7 @@ This acquired skill helps when we work with a distributed global team. Travellin
  - movies/tv shows :tv:
 
 ### Contact with me ✉️
- - Email me at [dharam.x.veer@fostringlinux.com]
+ - Email me at [dharam.x.veer@fostringlinux.com](mailto:dharam.x.veer@fostringlinux.com).
  - See my [Bio data](https://github.com/dharam-dot/my.passion.md/blob/main/my.passion.md) to get more info.
  
  
