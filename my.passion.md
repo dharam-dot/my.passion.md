@@ -14,6 +14,6 @@
  I am a suitability qualified Project Engineer with plenty experience in GPON FTTH PROJECT 
 	  
     1.OLT Installation
-	  2.OLT commissioning
-	  3.OLT Installation
+    2.OLT commissioning
+    3.OLT Installation
 
