@@ -6,11 +6,11 @@
  **Email:** dharam.x.veer@fosteringlinux.com
  
  ### CAREER OBJECTIVE
- ---
+ 
  The motto of my life is to be determined towards the software world and its development for the betterment in the standard of living of the society.
  
  ### Professional Summary
- ---
+ 
  I am a suitability qualified Project Engineer with plenty experience in GPON FTTH PROJECT 
 	  
     1.OLT Installation
@@ -25,9 +25,11 @@
     10.Voice testing and Alarm testing
     11.Site Survey
     12.QA
----
+
 ### EXPERIENCE
----
+**EDGE TELECOM PVT. LTD.**(17 MAY 2018 To 07 JUNE 2020)
+**Designation:** Network Engineer
+
 **Designation:** Network Engineer
 
 **Role:** Network Implementation & Troubleshooting.
@@ -51,7 +53,13 @@
      5.Alcatel 7210, 7210 R6 and R12 switches configuration & Troubleshooting
      6.Troubleshooting network issues inclusive of both protocol and hardware
      7.Basic configuration of router and switches
+
+**Batson delivery hospitality PVT LTD GGN HARYANA.**(17 July 2015 To 23 Aug 2017)
+**Designation:** Operation Manager  
+**Role:**A
+**Cent: NA
      
+
 ## ACADEMIC CREDENTIALS
 
 | **Course** | **University** | **Year of Passing** |
@@ -73,13 +81,5 @@ CCNA DIPLOMA FROM NETWORKS BULL from (Sep 2017 March 2018 Not Certified)
 | **Strengt** | Positive Attitude, Well organized person & Friendly nature according to condition. |
 | **Hobbies** | Traveling Playing Cricket |
 
-**Father's Name 	 :** KUNWAR SAIN
 
-**Address 	         :** H.NO 1254 , Shanti Vihar Badaun road Bareilly
-
-**DOB 		         :** 15/6/1990
-
-**Strength 	         :** Positive Attitude, Well organized person & Friendly nature according to condition.
-
-**Hobbies 	         :** Traveling Playing Cricket
 
