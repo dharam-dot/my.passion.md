@@ -32,7 +32,9 @@ This acquired skill helps when we work with a distributed global team. Travellin
  - Playing Carrom 🔳:
  - movies/tv shows :tv:
 
-
+### Contact with me ✉️:
+ - Email me at [dharam.x.veer@fostringlinux.com]
+ - See my [Bio data]()
  
  
 
