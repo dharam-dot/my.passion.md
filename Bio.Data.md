@@ -11,7 +11,7 @@ The motto of my life is to be determined towards the software world and its deve
  
  **Contact no :** 8810631157
  
- **Email:** dharam.x.veer@fosteringlinux.com
+ **Email:** dharamveer15061990@gmail.com
  
 ## CAREER OBJECTIVE
  
