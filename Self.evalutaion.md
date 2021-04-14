@@ -1,4 +1,4 @@
-<h2 align="center">Task-1 Self & Others evalution</h2> 
+<h2 align="center">Task-1 Self & Others Evaluation</h2> 
 
 <details>
   <summary> Summary of Task </summary>
