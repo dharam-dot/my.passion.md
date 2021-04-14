@@ -20,11 +20,18 @@ The Excel AVERAGE function calculates the average (arithmetic mean) of supplied 
 
 ##### Notes 📝:
 
-:black_circle: **AVERAGE automatically ignores empty cells and cells with text values(if condition not difine).
+:black_circle: AVERAGE automatically ignores empty cells and cells with text values(if condition not difine).
 
-:black_circle: **AVERAGE includes zero values. Use AVERAGEIF or AVERAGEIFS to ignore zero values.
+:black_circle: AVERAGE includes zero values. Use AVERAGEIF or AVERAGEIFS to ignore zero values.
 
-:black_circle: **Arguments can be supplied as constants, ranges, named ranges, or cell references.
+:black_circle: Arguments can be supplied as constants, ranges, named ranges, or cell references.
 
-:black_circle: **AVERAGE can handle up to 255 total arguments.
+:black_circle: AVERAGE can handle up to 255 total arguments.
+
+# Objective of Exercises
+
+### To learn about excel sheet:paperclip:
+### To learn about excel formula:paperclip:
+### To learn about algorithm:paperclip:
+
 
