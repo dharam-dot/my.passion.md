@@ -68,6 +68,17 @@ The Excel AVERAGE function calculates the average (arithmetic mean) of supplied 
 
 ## How it was implemented
 
+<details>
+  <summary> Implemented things </summary>
+  <ul>
+    <br>
+    <li> during implemented i used SUM function </li>
+    <li> during implemented i used COUNTIF function </li>
+    <li> during implemented i used COUNTA function </li>
+    <li> during implemented i used AVERAGE function </li>
+  </ul>
+</details>
+
 ## Explanation of Implementation
 
 ## Test Results
@@ -84,8 +95,8 @@ The Excel AVERAGE function calculates the average (arithmetic mean) of supplied 
 
 ## Conclusion
 
-**Finally, I would like to share my experience while doing this topic project. I learned many things about the given topic.
-The best thing that I can share is that I have developed more interest in this subject.**
+**Finally, I would like to share my experience while doing this project. I learned many things about the given topic.
+The best thing I can share is that I have developed more interest in this project.**
 
 
 #### Thank You
