@@ -1,3 +1,19 @@
+<details>
+  <summary> Summary </ of Task-1 Summary>
+  <ul>
+    <br>
+    <li> Create a MD file on basis on your Evaluation file already made by you on 13-04-2021 </li>
+    <li> What work did you get? </li>
+    <li> How to write formula? </li>
+    <li> How does the formula work? </li>
+    <li> Objective of Exercises </li>
+    <li> How it was implemented? </li>
+    <li> Explanation of Implementation </li>
+    <li> Test Results </li>
+    <li> Conclusion </li>
+  </ul>
+</details>
+
 # What work did you get?
 ### Task
               1.Create a evaluation sheet for self and others.
