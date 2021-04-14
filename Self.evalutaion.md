@@ -1,5 +1,5 @@
 <details>
-  <summary> Summary </ of Task-1 Summary>
+  <summary> Summary of Task </summary>
   <ul>
     <br>
     <li> Create a MD file on basis on your Evaluation file already made by you on 13-04-2021 </li>
