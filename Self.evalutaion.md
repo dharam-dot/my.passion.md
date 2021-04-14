@@ -36,4 +36,13 @@ The Excel AVERAGE function calculates the average (arithmetic mean) of supplied 
 
 # How it was implemented
 
+## Explanation of Implementation
 
+## Test Results
+
+| **SR-No.** | **TEST CASE** | **TEST OUTCOME** | **EXPECTED OUTCOME** | **STATUS** | **REMARKS** |
+| --- | --- | --- | --- | --- | ---- |
+| **1** | Type the Excellent in Punctuality column. | The Value 5 successfully print in average column when I put the Excellent in Punctuality column. | After put the Excellent  in Punctuality column successfully printed the value 5 in the average column. | **Passed** | Testing has been passed |
+
+
+## Conclusion
