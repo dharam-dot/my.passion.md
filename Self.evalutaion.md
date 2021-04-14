@@ -20,8 +20,8 @@
   <ul>
     <br>
     <li> Create a evaluation sheet for self and others. </li>
-    <li> Put the formula of average in average column </li>
-    <li> If average column Value is equal to or less than then row colure should be appear red. </li>
+    <li> Apply  the formula of average in column of average. </li>
+    <li> If average column Value is equal to or less than then row colour should be  red. </li>
   </ul>
 </details>
 
