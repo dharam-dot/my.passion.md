@@ -19,6 +19,7 @@ The Excel AVERAGE function calculates the average (arithmetic mean) of supplied 
       3.The AVERAGE function calculates the average of string. To calculate the average, Excel sums all string and divides by the count of numeric values. This behavior can be replicated with the SUM and COUNT functions.
 
 ##### Notes 📝:
+
 :black_circle: **AVERAGE automatically ignores empty cells and cells with text values(if condition not difine).
 
 :black_circle: **AVERAGE includes zero values. Use AVERAGEIF or AVERAGEIFS to ignore zero values.
