@@ -26,6 +26,16 @@
 </details>
 
 ## How to write formula ?
+<details>
+  <summary> The Formula Process </summary>
+  <ul>
+    <br>
+    <li> Creating a formula involves steps similar to any problem-solving task. There are five main ingredients in the formula process: </li>
+    <li> Defining the problem </li>
+    li> Defining the problem </li> 
+   </ul>
+</details>
+
 
 #### SUM(COUNTIF(C4:J4,"excellent")*5,COUNTIF(C4:J4,"Very good")*4,COUNTIF(C4:J4,"Good")*3,COUNTIF(C4:J4,"Satisfactory")*2,COUNTIF(C4:J4,"Fair")*1, COUNTIF(C4:J4,"Poor")*0)/COUNTA(C4:J4)**
 
