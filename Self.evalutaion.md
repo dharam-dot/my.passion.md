@@ -44,7 +44,7 @@
 A formula is an expression telling the computer what mathematical operation to perform upon a specific value. When referring to computer software, formulas are most often used in spreadsheet programs, such as Microsoft Excel. Using formulas in spreadsheets can allow you to quickly make calculations and get totals of multiple cells, rows, or columns in a spreadsheet.
 ### Excel AVERAGE Function
 **Summary**
-The Excel AVERAGE function calculates the average (arithmetic mean) of supplied numbers. AVERAGE can handle up to 255 individual arguments, which can include numbers, cell references, ranges, arrays, and constants.
+The Excel AVERAGE function calculates the average of supplied numbers. AVERAGE can handle up to 255 individual arguments, which can include numbers, cell references, ranges, arrays, and constants.
       
       1.Get the average of a group of numbers
       2.Syntax = SUM(COUNTIF(range,"string1")*number1,COUNTIF(range,"string2")*number2)/COUNTA(range)
@@ -68,6 +68,7 @@ The Excel AVERAGE function calculates the average (arithmetic mean) of supplied 
 
 ## How it was implemented
 
+
 <details>
   <summary> Implemented things </summary>
   <ul>
@@ -80,6 +81,12 @@ The Excel AVERAGE function calculates the average (arithmetic mean) of supplied 
 </details>
 
 ## Explanation of Implementation
+
+The **SUM function** adds values. You can add individual values, cell references or ranges or a mix of all three.
+The **COUNTIF function** counts the number of cells in a range, that meets a given criteria.
+The **COUNTA** function returns the count of cells that contain numbers, text, logical values, error values, and empty text (""). COUNTA does not count empty cells.
+The **AVERAGE function** in Excel calculates the average of a group of numbers. The AVERAGE function ignores logical values, empty cells and cells that contain text.
+
 
 ## Test Results
 
