@@ -70,7 +70,4 @@ The Excel AVERAGE function calculates the average (arithmetic mean) of supplied 
 
 ## Conclusion
 
-
-```
-     Thank You
-```
+#### Thank You
