@@ -39,7 +39,7 @@
    </ul>
 </details>
 
-## How does the formulae work?
+## How does the formula work?
 
 A formula is an expression telling the computer what mathematical operation to perform upon a specific value. When referring to computer software, formulas are most often used in spreadsheet programs, such as Microsoft Excel. Using formulas in spreadsheets can allow you to quickly make calculations and get totals of multiple cells, rows, or columns in a spreadsheet.
 ### Excel AVERAGE Function
