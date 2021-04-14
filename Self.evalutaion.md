@@ -75,10 +75,10 @@ The Excel AVERAGE function calculates the average of supplied numbers. AVERAGE c
   <summary> Implemented things </summary>
   <ul>
     <br>
-    <li> during implemented i used SUM function </li>
-    <li> during implemented i used COUNTIF function </li>
-    <li> during implemented i used COUNTA function </li>
-    <li> during implemented i used AVERAGE function </li>
+    <li> during implement i used SUM function </li>
+    <li> during implement i used COUNTIF function </li>
+    <li> during implement i used COUNTA function </li>
+    <li> during implement i used AVERAGE function </li>
   </ul>
 </details>
 
