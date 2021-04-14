@@ -39,13 +39,10 @@
    </ul>
 </details>
 
-
-#### SUM(COUNTIF(C4:J4,"excellent")*5,COUNTIF(C4:J4,"Very good")*4,COUNTIF(C4:J4,"Good")*3,COUNTIF(C4:J4,"Satisfactory")*2,COUNTIF(C4:J4,"Fair")*1, COUNTIF(C4:J4,"Poor")*0)/COUNTA(C4:J4)**
-
 ## How does the formulae work?
 
+A formula is an expression telling the computer what mathematical operation to perform upon a specific value. When referring to computer software, formulas are most often used in spreadsheet programs, such as Microsoft Excel. Using formulas in spreadsheets can allow you to quickly make calculations and get totals of multiple cells, rows, or columns in a spreadsheet.
 ### Excel AVERAGE Function
-
 **Summary**
 The Excel AVERAGE function calculates the average (arithmetic mean) of supplied numbers. AVERAGE can handle up to 255 individual arguments, which can include numbers, cell references, ranges, arrays, and constants.
       
@@ -84,8 +81,6 @@ The Excel AVERAGE function calculates the average (arithmetic mean) of supplied 
 | **5** | Type the Fair in Punctuality column. | The Value 1 successfully print in average column when I put the Fair in Punctuality column. | After put the Fair  in Punctuality column successfully printed the value 1 in the average column. | **Passed** | Testing has been passed |
 | **6** | Type the Very Poor in Punctuality column | The Value 0 successfully print in average column when i put the Poor in Punctuality column. | After put the Poor  in Punctuality column successfully printed the value 1 in the average column. | **Passed** | Testing has been passed |
 | **7** | **Similarly i Type the ( (Excellent, Very good, Good, Satisfactory, Fair, Poor)  in (Time management,Attendance,Communication,Requirement analysis,Self Learning,Grammatical error and Creativity) columns.** | **The Value (5,4,3,2,1,0) successfully print in average column when i put the (Excellent, Very good, Good, Satisfactory, Fair, Poor) in (Time management,Attendance,Communication,Requirement analysis,Self Learning,Grammatical error and Creativity)** | **After put the (Excellent, Very good, Good, Satisfactory, Fair, Poor)  in (Time management,Attendance,Communication,Requirement analysis,Self Learning,Grammatical error and Creativity columns successfully printed the value (5, 4, 3, 2, 1, 0) in the average column.** | **Passed** | **Testing has been passed** |
-
-
 
 ## Conclusion
 
