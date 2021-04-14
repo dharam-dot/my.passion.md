@@ -1,4 +1,4 @@
-<h2 align="center">GIVEN Task-1</h2> 
+<h2 align="center">Task-1</h2> 
 
 <details>
   <summary> Summary of Task </summary>
