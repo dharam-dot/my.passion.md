@@ -43,13 +43,13 @@
 
 ## How does the formula work?
 
-A formula is an expression telling the computer what mathematical operation to perform upon a specific value. When referring to computer software, formulas are most often used in spreadsheet programs, such as Microsoft Excel. Using formulas in spreadsheets can allow you to quickly make calculations and get totals of multiple cells, rows, or columns in a spreadsheet.
+A formula is an expression telling the computer what mathematical operation to perform upon a specific value. Using formulas in spreadsheets can allow you to quickly make calculations and get totals of multiple cells, rows, or columns in a spreadsheet.
 ### Excel AVERAGE Function
 **Summary**
 The Excel AVERAGE function calculates the average of supplied numbers. AVERAGE can handle up to 255 individual arguments, which can include numbers, cell references, ranges, arrays, and constants.
       
       1.Get the average of a group of numbers
-      2.Syntax = SUM(COUNTIF(range,"string1")*number1,COUNTIF(range,"string2")*number2)/COUNTA(range)
+      2.Syntax = SUM(COUNTIF(range,"string1")*number1,COUNTIF(range,"string2")*number2,COUNTIF(range,"string3")*number3,COUNTIF(range,"string4")*number4,COUNTIF(range,"string5")*number5,COUNTIF(range,"string6")*number6))/COUNTA(range)
       3.The AVERAGE function calculates the average of string. To calculate the average, Excel sums all string and divides by the count of numeric values. This behavior can be replicated with the SUM and COUNT functions.
 
 ##### Notes 📝:
