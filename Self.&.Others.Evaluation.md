@@ -79,6 +79,7 @@ The Excel AVERAGE function calculates the average of supplied numbers. AVERAGE c
     <li> during implement i used COUNTIF function </li>
     <li> during implement i used COUNTA function </li>
     <li> during implement i used AVERAGE function </li>
+    <li> during implement i used Conditional Formatting </li>
   </ul>
 </details>
 
@@ -88,7 +89,7 @@ The Excel AVERAGE function calculates the average of supplied numbers. AVERAGE c
 - **The COUNTIF function** counts the number of cells in a range, that meets a given criteria.
 - **The COUNTA function** returns the count of cells that contain numbers, text, logical values, error values, and empty text (""). COUNTA does not count empty cells.
 - **The AVERAGE function** in Excel calculates the average of a group of numbers. The AVERAGE function ignores logical values, empty cells and cells that contain text.
-
+- **Bonus Task** I have used Conditional Formatting for red colour option for change Average column cells colour. 
 
 ## Test Results
 
