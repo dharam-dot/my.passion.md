@@ -54,9 +54,9 @@ The Excel AVERAGE function calculates the average of supplied numbers. AVERAGE c
 
 ##### Notes 📝:
 
-:black_circle: AVERAGE automatically ignores empty cells and cells with text values(if condition not difine).
+:black_circle: AVERAGE automatically ignores empty cells and cells with text values.
 
-:black_circle: AVERAGE includes zero values. Use AVERAGEIF or AVERAGEIFS to ignore zero values.
+:black_circle: AVERAGE includes zero values.
 
 :black_circle: Arguments can be supplied as constants, ranges, named ranges, or cell references.
 
