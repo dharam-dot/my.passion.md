@@ -33,9 +33,9 @@
     <li> Creating a formula involves steps similar to any problem-solving task. There are five main ingredients in the formula process: </li>
     <li> Defining the problem </li>
     <li> Planning the solution </li>
-    <li> Coding the program </li>
+    <li> Coding the formula </li>
     <li> Testing the formula </li>
-    <li> Documenting the program </li>
+    <li> Documenting the formula </li>
    </ul>
 </details>
 
