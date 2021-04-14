@@ -34,4 +34,6 @@ The Excel AVERAGE function calculates the average (arithmetic mean) of supplied 
 #### To learn about excel formula:paperclip:
 #### To learn about algorithm:paperclip:
 
+# How it was implemented
+
 
