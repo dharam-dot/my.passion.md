@@ -45,7 +45,7 @@
 
 A formula is an expression telling the computer what mathematical operation to perform upon a specific value. Using formulas in spreadsheets can allow you to quickly make calculations and get totals of multiple cells, rows, or columns in a spreadsheet.
 ### Excel AVERAGE Function
-**Summary**
+
 The Excel AVERAGE function calculates the average of supplied numbers. AVERAGE can handle up to 255 individual arguments, which can include numbers, cell references, ranges, arrays, and constants.
       
       1.Get the average of a group of numbers
@@ -89,7 +89,7 @@ The Excel AVERAGE function calculates the average of supplied numbers. AVERAGE c
 - **The COUNTIF function** counts the number of cells in a range, that meets a given criteria.
 - **The COUNTA function** returns the count of cells that contain numbers, text, logical values, error values, and empty text (""). COUNTA does not count empty cells.
 - **The AVERAGE function** in Excel calculates the average of a group of numbers. The AVERAGE function ignores logical values, empty cells and cells that contain text.
-- **Bonus Task** I have used Conditional Formatting for red colour option for change Average column cells olour. IAverage Column value less than and equale to 2.5
+- **Bonus Task** I have used Conditional Formatting for red colour option for change Average column cells olour. If Average Column value less than and equale to 2.5
 
 ## Test Results
 
@@ -101,11 +101,15 @@ The Excel AVERAGE function calculates the average of supplied numbers. AVERAGE c
 | **4** | Type the Satisfactory in Punctuality column | The Value 2 successfully print in average column when i put the Satisfactory in Punctuality column. | After put the Satisfactory in Punctuality column successfully printed the value 2 in the average column. | **Passed** | Testing has been passed |
 | **5** | Type the Fair in Punctuality column. | The Value 1 successfully print in average column when I put the Fair in Punctuality column. | After put the Fair  in Punctuality column successfully printed the value 1 in the average column. | **Passed** | Testing has been passed |
 | **6** | Type the Very Poor in Punctuality column | The Value 0 successfully print in average column when i put the Poor in Punctuality column. | After put the Poor  in Punctuality column successfully printed the value 1 in the average column. | **Passed** | Testing has been passed |
-| **7** | **Similarly i Type the ( (Excellent, Very good, Good, Satisfactory, Fair, Poor)  in (Time management,Attendance,Communication,Requirement analysis,Self Learning,Grammatical error and Creativity) columns.** | **The Value (5,4,3,2,1,0) successfully print in average column when i put the (Excellent, Very good, Good, Satisfactory, Fair, Poor) in (Time management,Attendance,Communication,Requirement analysis,Self Learning,Grammatical error and Creativity)** | **After put the (Excellent, Very good, Good, Satisfactory, Fair, Poor)  in (Time management,Attendance,Communication,Requirement analysis,Self Learning,Grammatical error and Creativity columns successfully printed the value (5, 4, 3, 2, 1, 0) in the average column.** | **Passed** | **Testing has been passed** |
+| **7** | **Similarly i Type the (Excellent, Very good, Good, Satisfactory, Fair, Poor)  in (Time management,Attendance,Communication,Requirement analysis,Self Learning,Grammatical error and Creativity) columns.** | **The Value (5,4,3,2,1,0) successfully print in average column when i put the (Excellent, Very good, Good, Satisfactory, Fair, Poor) in (Time management,Attendance,Communication,Requirement analysis,Self Learning,Grammatical error and Creativity)** | **After put the (Excellent, Very good, Good, Satisfactory, Fair, Poor)  in (Time management,Attendance,Communication,Requirement analysis,Self Learning,Grammatical error and Creativity columns successfully printed the value (5, 4, 3, 2, 1, 0) in the average column.** | **Passed** | **Testing has been passed** |
+| **8** | after puting rating in rating column | The average column value is greater than 2.5 in colure has no change. | after the gettig The average column value is greater than 2.5 in colure has no change succesfully. | | **Passed** | Testing has been passed |
+| **9** | after puting rating in rating column | The average column value is less than 2.5 in colure has shown red colour. | after the gettig The average column value is less than 2.5 in colure shown red colour succesfully. | | **Passed** | Testing has been passed |
+
+
 
 ## Conclusion
 
-**Finally, I would like to share my experience while doing this project. I learned many things about the given topic.
-The best thing I can share is that I have developed more interest in this project.**
+**Finally, I would like to share my experience while doing this assignment. I learned many things about the given assigment.
+The best thing I can share is that I have developed more interest in this assignment.**
 
 #### Thank You
