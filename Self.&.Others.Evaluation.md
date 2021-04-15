@@ -49,7 +49,7 @@ A formula is an expression telling the computer what mathematical operation to p
 The Excel AVERAGE function calculates the average of supplied numbers. AVERAGE can handle up to 255 individual arguments, which can include numbers, cell references, ranges, arrays, and constants.
       
       1.Get the average of a group of numbers
-      2.Syntax = SUM(COUNTIF(range,"string1")*number1,COUNTIF(range,"string2")*number2,COUNTIF(range,"string3")*number3,COUNTIF(range,"string4")*number4,COUNTIF(range,"string5")*number5,COUNTIF(range,"string6")*number6))/COUNTA(range)
+      2.Syntax = SUM(COUNTIF(range,"Excellent")*5,COUNTIF(range,"Very good")*4,COUNTIF(range,"Good")*3,COUNTIF(range,"Satisfactory")*2,COUNTIF(range,"Fair")*1,COUNTIF(range,"Poor")*0)/COUNTA(range)
       3.The AVERAGE function calculates the average of string. To calculate the average, Excel sums all string and divides by the count of numeric values. This behavior can be replicated with the SUM and COUNT functions.
 
 ##### Notes 📝:
@@ -89,7 +89,7 @@ The Excel AVERAGE function calculates the average of supplied numbers. AVERAGE c
 - **The COUNTIF function** counts the number of cells in a range, that meets a given criteria.
 - **The COUNTA function** returns the count of cells that contain numbers, text, logical values, error values, and empty text (""). COUNTA does not count empty cells.
 - **The AVERAGE function** in Excel calculates the average of a group of numbers. The AVERAGE function ignores logical values, empty cells and cells that contain text.
-- **Bonus Task** I have used Conditional Formatting for red colour option for change Average column cells colour. 
+- **Bonus Task** I have used Conditional Formatting for red colour option for change Average column cells olour. IAverage Column value less than and equale to 2.5
 
 ## Test Results
 
