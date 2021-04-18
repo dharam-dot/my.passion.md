@@ -20,8 +20,11 @@ This script written in the Shell script
 ![Screenshot-8](https://user-images.githubusercontent.com/82143335/115153043-86f77b00-a091-11eb-91e9-188aac814fe5.png)
 ![Screenshot-9](https://user-images.githubusercontent.com/82143335/115152933-0173cb00-a091-11eb-9d7f-c4cffe865cc6.png)
 
-- [Link for downloading the CSV 1](https://docs.google.com/spreadsheets/d/e/2PACX-1vS9pmOTPTCVI3XdmGtzetXIm9YVD2cnLDXAkBviswsYAifm9d9dq_iKfPFaHOMpL9oxtSJBh-u9R5CW/pub?output=csv)
-- [Link for downloading the CSV 2](https://docs.google.com/spreadsheets/d/e/2PACX-1vSEjogtwoNCCLzmjLHSegdJXH-icphTYJfzpAGC7WYOBPqgkwXNgcC3HQGpfU4tP-Jf8KUTVOHBloX6/pub?output=csv)
+### download the google sheet in csv format for evaluation of self and others on the basis of previous performance.
+- [Link for downloading](https://docs.google.com/spreadsheets/d/e/2PACX-1vS9pmOTPTCVI3XdmGtzetXIm9YVD2cnLDXAkBviswsYAifm9d9dq_iKfPFaHOMpL9oxtSJBh-u9R5CW/pub?output=csv)
+
+### download the google sheet in  csv format for evaluation of self and others on the basis of task1
+- [Link for downloading](https://docs.google.com/spreadsheets/d/e/2PACX-1vSEjogtwoNCCLzmjLHSegdJXH-icphTYJfzpAGC7WYOBPqgkwXNgcC3HQGpfU4tP-Jf8KUTVOHBloX6/pub?output=csv)
 
 
 ```
