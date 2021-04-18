@@ -13,5 +13,8 @@
 
 # Bash script 
 This script written in the Shell script
+![Screenshot-3](https://user-images.githubusercontent.com/82143335/115152308-33cff900-a08e-11eb-936f-982dbae477b3.png)
+![Screenshot-4](https://user-images.githubusercontent.com/82143335/115152341-53672180-a08e-11eb-8eba-c34f1cc54103.png)
+
 
 
