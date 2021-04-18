@@ -13,5 +13,5 @@
 
 # Bash script 
 This script written in the Shell script
-![Screenshot-1](https://user-images.githubusercontent.com/82143335/115152034-1babaa00-a08d-11eb-961a-6e95a9fd9616.png)
+
 
