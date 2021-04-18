@@ -10,3 +10,7 @@
     <li> Only the name, Average and Sum columns and their values should be printed. </li>
   </ul>
 </details>
+
+# Bash script 
+This script written in the Shell script
+
