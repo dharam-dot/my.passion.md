@@ -17,5 +17,5 @@ This script written in the Shell script
 ![Screenshot-7](https://user-images.githubusercontent.com/82143335/115152905-da1cfe00-a090-11eb-9858-3dedb8248b00.png)
 
 script out put.
-![Screenshot-8](https://user-images.githubusercontent.com/82143335/115152926-f7ea6300-a090-11eb-88b6-5c33edd73daa.png)
+![Screenshot-8](https://user-images.githubusercontent.com/82143335/115153043-86f77b00-a091-11eb-91e9-188aac814fe5.png)
 ![Screenshot-9](https://user-images.githubusercontent.com/82143335/115152933-0173cb00-a091-11eb-9d7f-c4cffe865cc6.png)
