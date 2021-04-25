@@ -30,7 +30,6 @@
 | **SR-No.** | **TEST CASE** | **COMMAND** | **TEST OUTCOME** | **EXPECTED OUTCOME** | **STATUS** | **REMARKS** |
 | --- | --- | --- | --- | --- | --- | ---- |  
 | **1** | Spreadsheet link convert in CSV format | No Command | Using Publish to the web option got the Spreadsheet link in CSV format | After using Publish to the web option in Spreadsheet succesully got the link of Spreadsheet in csv format  | **Passed** | Testing has been passed |
-
 | **2** | Spreadsheet Downoad | wget -q url of Spreadsheet | Using wget command  Spreadsheet succefully download in csv format. | After using wget command Spreadsheet succefully download in csv format.  | **Passed** | Testing has been passed |
   
   </details>
