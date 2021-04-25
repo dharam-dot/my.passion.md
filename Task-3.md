@@ -20,7 +20,31 @@
     <li> Script </li>
     <li> Output of script </li>
     <li> Conclusion  </li>
-    <li> download file link </li>
+    <li> download files links </li>
   </ul>
   
 </details>
+
+<details>
+  <summay> Test Cases </summary>
+  </details>
+  
+  <details>
+  <summay> Implementation </summary>
+  </details>
+  
+  <details>
+  <summay> Script </summary>
+  </details>
+  
+  <details>
+  <summay> Output of script </summary>
+  </details>
+  
+  <details>
+  <summay> Conclusion </summary>
+  </details>
+  
+  <details>
+  <summay> Download files Links </summary>
+  </details>
