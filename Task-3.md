@@ -27,8 +27,8 @@
 <details>
   <summary> Test Cases </summary>
   
-| **SR-No.** | **TEST CASE** | **TEST OUTCOME** | **EXPECTED OUTCOME** | **STATUS** | **REMARKS** |
-| --- | --- | --- | --- | --- | ---- |  
+| **SR-No.** | **COMMAND** | **TEST CASE** | **TEST OUTCOME** | **EXPECTED OUTCOME** | **STATUS** | **REMARKS** |
+| --- | --- | --- | --- | --- | --- | ---- |  
   
   </details>
   
