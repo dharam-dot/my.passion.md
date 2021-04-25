@@ -22,29 +22,28 @@
     <li> Conclusion  </li>
     <li> download files links </li>
   </ul>
-  
-</details>
+  </details>
 
 <details>
-  <summay> Test Cases </summary>
+  <summary> Test Cases </summary>
   </details>
   
   <details>
-  <summay> Implementation </summary>
+  <summary> Implementation </summary>
   </details>
   
   <details>
-  <summay> Script </summary>
+  <summary> Script </summary>
   </details>
   
   <details>
-  <summay> Output of script </summary>
+  <summary> Output of script </summary>
   </details>
   
   <details>
-  <summay> Conclusion </summary>
+  <summary> Conclusion </summary>
   </details>
   
   <details>
-  <summay> Download files Links </summary>
+  <summary> Download files Links </summary>
   </details>
