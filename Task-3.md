@@ -27,8 +27,10 @@
 <details>
   <summary> Test Cases </summary>
   
-| **SR-No.** | **COMMAND** | **TEST CASE** | **TEST OUTCOME** | **EXPECTED OUTCOME** | **STATUS** | **REMARKS** |
+| **SR-No.** | **TEST CASE** | **COMMAND** | **TEST OUTCOME** | **EXPECTED OUTCOME** | **STATUS** | **REMARKS** |
 | --- | --- | --- | --- | --- | --- | ---- |  
+| **1** | Spreadsheet link convert in CSV format | No Command | Using Publish to the web option got the Spreadsheet link in CSV format | After using Publish to the web option in Spreadsheet succesully got the link of Spreadsheet in csv format  | **Passed** | Testing has been passed |
+
   
   </details>
   
