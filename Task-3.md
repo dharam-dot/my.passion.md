@@ -33,6 +33,7 @@
 | **2** | Spreadsheet Downoad | wget -q url of Spreadsheet | Using wget command  Spreadsheet successfully  download in csv format. | After using wget command Spreadsheet succefully download in csv format.  | **Passed** | Testing has been passed |
 | **3** | Rename the download file | mv "pub?output=csv" output1.csv | Using mv command  downloaded file successfully  rename. | After using mv command  downloaded file succefully rename.  | **Passed** | Testing has been passed |
 | **4** | Get the output in NAME,AVRAGE and SUM | AWK command | Using awk command got the result in te form in NAME, AVERAGE and SUM | after Using awk command successfully  got the result in te form in NAME, AVERAGE and SUM |  **Passed** | Testing has been passed |
+| **5** |After add any column in Spreadsheet  | No command | Using insert option added the any column in spreadsheet got the update result and added column is showing in csv file.| After Using insert option added the any column in spreadsheet got the update result and added column is showing in csv file.|  **Passed** | Testing has been passed |
   
   </details>
   
