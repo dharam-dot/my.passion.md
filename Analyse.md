@@ -12,7 +12,7 @@
   <ul>
     <br>
     <li> Create a Script to analyse Test cases of the Task-3 </li>
-    <li> Script should be  also run  on others person linux machine. </li>
+    <li> Script should be also run  on others person linux machine. </li>
     <li> Check CSV files successfully download or not. </li>
     <li> Check CSV files successfully rename or not. </li>
     <li> Check after adding any column required output change or not. </li>
@@ -20,4 +20,12 @@
     <li> Check all Logs successfully genrated in  log file or not .  </li>
     <li> Check all desired output(name, average,sum)  match or not. </li>
   </ul>
+</details>
+
+<details>
+  <summary> Check Points </summary>
+  |Test Cases|Check Points|Remarks|Pass|Fail|
+   |:----:|:----:|:----:|:----:|:----:|
+   |1|Script should be also run  on others person linux machine|--|--|--|
+  
 </details>
