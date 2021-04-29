@@ -12,11 +12,11 @@
   <ul>
     <br>
     <li> Create a Script to analyse Test cases of the Task-3 </li>
-    <li> Script should be run other person linux machine </li>
-    <li> Check CSV files successfully download or not </li>
-     <li> Check CSV files successfully rename  or not </li>
-     <li> Check after adding any column required out change or not  </li>
-    <li> Check after adding any row required out change or not  </li>
-    <li> Logs successfully genrated in log file or not  </li>
+    <li> Script should be  also run  on others person linux machine. </li>
+    <li> Check CSV files successfully download or not. </li>
+    <li> Check CSV files successfully rename or not. </li>
+    <li> Check after adding any column required output change or not. </li>
+    <li> Check after adding any row required output change or not.  </li>
+    <li> Check all Logs successfully genrated in  log file or not .  </li>
   </ul>
 </details>
