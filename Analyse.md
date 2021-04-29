@@ -28,5 +28,11 @@
   |Test Cases|Check Points|Remarks|Pass|Fail|
    |:----:|:----:|:----:|:----:|:----:|
    |1|Script should be also run  on others person linux machine|--|--|--|
+   |2|Check CSV files successfully download or not.|--|--|--|
+   |3|Script should be also run  on others person linux machine|--|--|--|
+   |4|Check CSV files successfully rename or not.|--|--|--|
+   |5|Check after adding any column required output change or not.|--|--|--|
+   |6|Check all Logs successfully genrated in  log file or not .|--|--|--|
+   |7|Check all desired output(name, average,sum)  match or not.|--|--|--|
   
 </details>
