@@ -8,7 +8,7 @@
 </details>
 
 <details>
-  <summary> Knew about Assignment </summary>
+  <summary> Know about Assignment </summary>
   <ul>
     <br>
     <li> Create a Script to analyse Test cases of the Task-3 </li>
