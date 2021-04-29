@@ -34,5 +34,9 @@
    |5|Check after adding any column required output change or not.|--|--|--|
    |6|Check all Logs successfully genrated in  log file or not .|--|--|--|
    |7|Check all desired output(name, average,sum)  match or not.|--|--|--|
+   |8|Check links validatation of both file |--|--|--|
+   |9|Check auto multiplication working or not in sum ccolumn.|--|--|--|
+   |10|Check data diretory sucessfully created or not.|--|--|--|
+   
   
 </details>
