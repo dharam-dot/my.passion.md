@@ -18,5 +18,6 @@
     <li> Check after adding any column required output change or not. </li>
     <li> Check after adding any row required output change or not.  </li>
     <li> Check all Logs successfully genrated in  log file or not .  </li>
+    <li> Check all desired output(name, average,sum)  match or not. </li>
   </ul>
 </details>
