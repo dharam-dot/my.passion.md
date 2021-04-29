@@ -27,16 +27,15 @@
   
   |Test Cases|Check Points|Remarks|Pass|Fail|
    |:----:|:----:|:----:|:----:|:----:|
-   |1|Script should be also run  on others person linux machine|--|--|--|
+   |1|Script should be also run  on others person linux machine.|--|--|--|
    |2|Check CSV files successfully download or not.|--|--|--|
-   |3|Script should be also run  on others person linux machine|--|--|--|
-   |4|Check CSV files successfully rename or not.|--|--|--|
-   |5|Check after adding any column required output change or not.|--|--|--|
-   |6|Check all Logs successfully genrated in  log file or not .|--|--|--|
-   |7|Check all desired output(name, average,sum)  match or not.|--|--|--|
-   |8|Check links validatation of both file |--|--|--|
-   |9|Check auto multiplication working or not in sum ccolumn.|--|--|--|
-   |10|Check data diretory sucessfully created or not.|--|--|--|
+   |3|Check CSV files successfully rename or not.|--|--|--|
+   |4|Check after adding any column required output change or not.|--|--|--|
+   |5|Check all Logs successfully genrated in  log file or not .|--|--|--|
+   |6|Check all desired output(name, average,sum)  match or not.|--|--|--|
+   |7|Check links validatation of both files. |--|--|--|
+   |8|Check auto multiplication working or not in sum column.|--|--|--|
+   |9|Check data diretory sucessfully created or not.|--|--|--|
    
   
 </details>
