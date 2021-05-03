@@ -75,6 +75,8 @@ else
 
 $ECHO "==================First sheet output==================="
 
+$ECHO "==================First sheet output==================="  > $DATADIR1
+
 #Here wget command is used to download spreadsheet 1 with the help of url
 
 $WGET $WGETOPT1 $MYURL01
@@ -188,6 +190,11 @@ $ECHO "pls multiply by this numbere=$ACTVAL"
 $CAT $NEWFILENAME1 | $TAIL -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "Sum : ",$average1*z, "\n", "Avg : ",$average1, "\n"}' name1=$PLUS1 average1=$PLUS2 z=$ACTVAL
 $ECHO "$(date) [output for sheet 1] successfully print sheet1 the required output" >> "$log"  #Collect logs in log file
 
+output1=`$CAT $NEWFILENAME1 | $TAIL -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "Sum : ",$average1*z, "\n", "Avg : ",$average1, "\n"}' name1=$PLUS1 average1=$PLUS2 z=$ACTVAL`
+
+$ECHO "$output1" >> $DATADIR1
+
+
 fi
 
 ###############################################################################################################################################################
@@ -203,6 +210,8 @@ $ECHO "This error for sheet2"
 else
 
 $ECHO "==================Second sheet output==================="
+
+$ECHO "==================Second sheet output===================" >> $DATADIR1
 
 #Here wget command is used to download spreadsheet 1 with the help of url
 
@@ -313,6 +322,10 @@ $ECHO "pls multiply by this numbere=$ACTVAL1"
 #Extracting value from x $ value2
 
 $CAT $NEWFILENAME2 | $TAIL -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*s, "\n", "Avg : ",$average1, "\n"}' name1=$PLUS11 average1=$PLUS22 s=$ACTVAL1
+
+output2=`$CAT $NEWFILENAME2 | $TAIL -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*s, "\n", "Avg : ",$average1, "\n"}' name1=$PLUS11 average1=$PLUS22 s=$ACTVAL1`
+
+$ECHO "$output2" >> $DATADIR1
 
 $ECHO "$(date) [output for sheet 2] successfully print sheet2 the required output" >> "$log"  #Collect logs in log file
 
@@ -500,7 +513,7 @@ log=/home/pradeep/task/script.log
 #directory for datafile
 
 DATADIR=/home/pradeep/task/datafile
-
+DATADIR1=/home/pradeep/task/datafile/output
 #====================================================================================
 
   </details>
