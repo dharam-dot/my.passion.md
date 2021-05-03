@@ -61,7 +61,9 @@ PWD=`/usr/bin/pwd`
 
 #Here we given the path of configuration file using source command
 
-source /home/pradeep/task/scriptconfig.conf
+#source /home/pradeep/task/scriptconfig.conf
+
+source $PWD/scriptconfig.conf
 
 #if condition is true then print error in sheet otherwise go to the else.
 
