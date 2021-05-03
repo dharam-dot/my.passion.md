@@ -61,7 +61,7 @@ Then I got the required output from awk command.
   
  #This is the main configuration file of script
 
-#============================================================================================
+#=======================================================================================
 
 #Variable declaration of command path which used in script
 
@@ -155,7 +155,7 @@ GREPOPT1=-i
 
 AWKOPT1=-F
 
-#=================================================================================================
+#===============================================================================================
 
 #here url used to download the spreadsheet in the format CSV
 
@@ -163,13 +163,13 @@ AWKOPT1=-F
 
 MYURL01=https://docs.google.com/spreadsheets/d/e/2PACX-1vS9pmOTPTCVI3XdmGtzetXIm9YVD2cnLDXAkBviswsYAifm9d9dq_iKfPFaHOMpL9oxtSJBh-u9R5CW/pub?output=csv
 
-#===============================================================================================
+#=============================================================================================
 
 #Below url02 for download the spreadsheet 2
 
 MYURL02=https://docs.google.com/spreadsheets/d/e/2PACX-1vSEjogtwoNCCLzmjLHSegdJXH-icphTYJfzpAGC7WYOBPqgkwXNgcC3HQGpfU4tP-Jf8KUTVOHBloX6/pub?output=csv
 
-#===============================================================================================
+#=============================================================================================
 
 #Rename the downloaded file 1
 
@@ -213,7 +213,8 @@ avgcolumn=average
 
 #namecolumn=name
 
-#===================================================================================================
+#=================================================================================================
+
 #Extra column
 
 NAMECOL=Name
