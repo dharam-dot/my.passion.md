@@ -515,7 +515,9 @@ log=/home/pradeep/task/script.log
 #directory for datafile
 
 DATADIR=/home/pradeep/task/datafile
+
 DATADIR1=/home/pradeep/task/datafile/output
+
 #====================================================================================
 
   </details>
