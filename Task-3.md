@@ -58,6 +58,190 @@ Then I got the required output from awk command.
   
   <details>
   <summary> Configuration File </summary>
+  
+ #This is the main configuration file of script
+
+#====================================================================================================================================================
+
+#Variable declaration of command path which used in script
+
+#wget command is a Linux command line utility that helps us to download the files from the web.
+
+WGET=/usr/bin/wget
+
+#echo command in linux is used to display line of text/stringon terminal.
+
+ECHO=/usr/bin/echo
+
+#mv command renames a file or folder and moves a group of files to a different directory
+
+MV=/usr/bin/mv
+
+#cat command allows us to create single or multiple files, view contain of file, concatenate files and redirect output in terminal or files.
+
+CAT=/usr/bin/cat
+
+#awk command searches files for text containing a pattern. When a line or text matches, awk performs a specific action on that line/text.
+
+AWK=/usr/bin/awk
+
+#tail commandprint the last N number of data of the given input.
+
+TAIL=/usr/bin/tail
+
+#tr is a command for translating or deleting characters.
+
+TR=/usr/bin/tr
+
+#The grep command in unix or linux system is used to print the lines that match a given pattern.
+
+GREP=/usr/bin/grep
+
+#wc Command in Linux Count Number of Lines, Words, and Character.
+
+WC=/usr/bin/wc
+
+#pwd command prints the path of the working directory
+
+PWD=/usr/bin/pwd
+
+#cp command is used to copy files or group of files or directory.
+
+CP=/usr/bin/cp
+
+#date command is used to display the system date and time.
+
+DATE=/usr/bin/date
+
+#=/usr/bin/
+
+#====================================================================================================================================================
+
+#wget command option
+
+#The download output is not visible so -q is used
+
+WGETOPT1=-q
+
+#====================================================================================================================================================
+
+#tr command option
+
+#-cd option used for delete the character.
+
+TROPT1=-cd
+
+#===================================================================================================================================================
+
+#wc command option
+
+#-c is used ko count the character
+
+WCOPT1=-c
+
+#===================================================================================================================================================
+
+#grep command option
+
+#-i option used for displays both uppercase and lowercase results.
+
+GREPOPT1=-i
+
+#===================================================================================================================================================
+
+#awk command option
+
+#-F used for the input field separator.
+
+AWKOPT1=-F
+
+#===================================================================================================================================================
+
+#here url used to download the spreadsheet in the format CSV
+
+#Below url01 for download the spreadsheet 1
+
+MYURL01=https://docs.google.com/spreadsheets/d/e/2PACX-1vS9pmOTPTCVI3XdmGtzetXIm9YVD2cnLDXAkBviswsYAifm9d9dq_iKfPFaHOMpL9oxtSJBh-u9R5CW/pub?output=csv
+
+#====================================================================================================================================================
+
+#Below url02 for download the spreadsheet 2
+
+MYURL02=https://docs.google.com/spreadsheets/d/e/2PACX-1vSEjogtwoNCCLzmjLHSegdJXH-icphTYJfzpAGC7WYOBPqgkwXNgcC3HQGpfU4tP-Jf8KUTVOHBloX6/pub?output=csv
+
+#=====================================================================================================================================================
+
+#Rename the downloaded file 1
+
+OLDFILENAME1=/home/pradeep/task/pub?output=csv
+
+NEWFILENAME1=/home/pradeep/task/sheet1.csv
+
+#=====================================================================================================================================================
+
+#Rename the downloaded file 2
+
+OLDFILENAME2=/home/pradeep/task/pub?output=csv
+
+NEWFILENAME2=/home/pradeep/task/sheet2.csv
+
+#====================================================================================================================================================
+
+#Column of spreadsheet
+
+#SRNCOLUMN=SrNo
+
+#INTERCOL=Intern Name
+
+#COLUMN3=Punctuality
+
+#COLUMN4=Time management
+
+#COLUMN5=Attendance
+
+#COLUMN6=Communication
+
+#COLUMN7=Requirement analysis
+
+#COLUMN8=Self Learning
+
+#COLUMN9=Grammatical error
+
+#COLUMN10=Creativity
+
+AVGCOLUMN=Average
+
+avgcolumn=average
+
+#namecolumn=name
+
+#=================================================================================================================================================
+#Extra column
+
+NAMECOL=Name
+
+INTERNCOL=Intern
+
+SUMCOL=Sum
+
+AVGCOL=Avg
+
+#==================================================================================================================================================
+
+#log file of script
+
+log=/home/pradeep/task/script.log
+
+#==================================================================================================================================================
+
+#directory for datafile
+
+DATADIR=/home/pradeep/task/datafile
+
+OUTPUTFIR=/home/pradeep/task/datafile/output.txt
+
+#==================================================================================================================================================
+
   </details>
   
   <details>
