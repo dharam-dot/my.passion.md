@@ -238,8 +238,6 @@ log=/home/pradeep/task/script.log
 
 DATADIR=/home/pradeep/task/datafile
 
-OUTPUTFIR=/home/pradeep/task/datafile/output.txt
-
 #====================================================================================
 
   </details>
