@@ -27,14 +27,14 @@
 <details>
   <summary> Test Cases </summary>
   
-| **SR-No.** | **TEST CASE** | **COMMAND** | **TEST OUTCOME** | **EXPECTED OUTCOME** | **STATUS** | **REMARKS** |
-| --- | --- | --- | --- | --- | --- | ---- |  
-| **1** | Spreadsheet link convert in CSV format | No Command | Using Publish to the web option got the Spreadsheet link in CSV format | After using Publish to the web option in Spreadsheet succesully got the link of Spreadsheet in csv format  | **Passed** | Testing has been passed |
-| **2** | Spreadsheet Downoad | wget -q url of Spreadsheet | Using wget command  Spreadsheet successfully  download in csv format. | After using wget command Spreadsheet succefully download in csv format.  | **Passed** | Testing has been passed |
-| **3** | Rename the download file | mv "pub?output=csv" output1.csv | Using mv command  downloaded file successfully  rename. | After using mv command  downloaded file succefully rename.  | **Passed** | Testing has been passed |
-| **4** | Get the output in NAME,AVRAGE and SUM | AWK command | Using awk command got the result in te form in NAME, AVERAGE and SUM | after Using awk command successfully  got the result in te form in NAME, AVERAGE and SUM |  **Passed** | Testing has been passed |
-| **5** |After add any column in Spreadsheet  | No command | Using insert option added the any column in spreadsheet got the update result and added column is showing in csv file.| After Using insert option added the any column in spreadsheet got the update result and added column is showing in csv file.|  **Passed** | Testing has been passed |
-| **6** |After add any ROW in Spreadsheet  | No command | Using insert option added the any ROW in spreadsheet got the update result and added ROW is showing in csv file.| After Using insert option added the any ROW in spreadsheet got the update result and added ROW is showing in csv file.|  **Passed** | Testing has been passed |
+|S.NO|Test Cases|Test Case Description|Expected Result|Test Status|Output|
+|:----:|:-----:|:-----:|:-----:|:-----:|:----:|
+|1 |**Published Url** |Spread sheet link published by using publish to web option from file of spreadsheet and select the .csv format |Url should be published|**PASS** |![Webpublish](https://user-images.githubusercontent.com/82143335/116895216-94476480-ac50-11eb-9466-18a10936a60e.PNG)
+|
+|2 |**Declaring the path of commands in variable** |I declared the path of commands in variables in the configuration file which i used in the script  |Path of command should be declare in the variable |**PASS** |![variables](https://user-images.githubusercontent.com/82143335/116895709-1cc60500-ac51-11eb-8d94-fbb9faf237a5.PNG)|
+|3 |**DOWNLOADING THE GOOGLE SPREAD SHEETS IN CSV FORMAT** |I used wget with -q option with url of the google spread sheet to download in csv format -q option is used for silently downloaded <br/> I used this $WGET $option $URL1 and $URL2 the value of these variable extracting from the configuration file |Google spreadsheet in csv format should be downloaded |**PASS** |![download spreadsheet](https://user-images.githubusercontent.com/82143335/116896072-7cbcab80-ac51-11eb-9828-6bb1f0caf055.PNG)|
+|4 |**RENAME THE DOWNLOADED FILE** |Renamed  files which was downloading through 3 test case to sheet1.csv and sheet2.csv by using mv command  <br/> Iused this $MV $OLDFILE $NEWFILE the value of these variable extract from the configuration file |Files should be renamed|**PASS** | |
+
   
   </details>
   
