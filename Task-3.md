@@ -226,6 +226,7 @@ SUMCOL=Sum
 AVGCOL=Avg
 
 #====================================================================================
+
 #log file of script
 
 log=/home/pradeep/task/script.log
