@@ -18,7 +18,8 @@
     <li> Test cases</li>
     <li> Implementation </li>
     <li> Script </li>
-    <li> Output of script </li>
+    <li> Configuration File </li>
+    <li> Log file </li>
     <li> Conclusion  </li>
     <li> download files links </li>
   </ul>
