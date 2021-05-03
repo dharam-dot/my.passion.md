@@ -57,7 +57,7 @@ Then I got the required output from awk command.
   </details>
   
   <details>
-  <summary> Output of script </summary>
+  <summary> Configuration File </summary>
   </details>
   
   <details>
