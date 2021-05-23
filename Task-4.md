@@ -30,7 +30,7 @@
 |5 |**DISPLAY THE OUTPUT using configuration file** | I used the source of configuration file in the script and run the script  <br/> I used  this to extract the required column (awk -F "," '{print "Name :",$name1, "\n", "Sum :",$average1* z "\n", "Average :",$average1, "\n"}') |Script should be run and display the output |**PASS** |
 |6 |**Adding the column in the spreadsheet** |Add the column in the spreadsheet and gives the word to all students |Output should be updated |**PASS** |
 |7 |**Adding the row in the spreadsheet** |Add the row in the spreadsheet and gives the word in all the columns |Output should be updated |**PASS** |
-|8 |**log file** |when script run all logs genrate in log file |log should be genrated successfully in log file |**pass** |
+|8 |**Compair test script** |Using diff command comapred the both file and got result|Script should be run and display the output |**pass** |
   
 </details>
 
@@ -38,7 +38,7 @@
 <details>
   <summary> Implementation </summary>
   
-I have  create a new test script. In the first step we have downloaded the google sheet & added some content from previos evaluation script so that the test script can generate same kind of data formate to test or compair the output of both scripts. After that the generated output data will store in  datafile  folder. After that we will compair Script data file and Test data file using diff command.
+In this script, first of all I copied the spreadsheet link to csv link through web publish option. After that I downloaded the link to the spreadsheet with the wget command and rename the download file with the mv command. Then I got the required output from awk command. after that i used diff command in my test script and compare the both files and got the required output.
   
  </details>
  
