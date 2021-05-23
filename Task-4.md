@@ -4,8 +4,7 @@
   <summary> Summary of Task </summary>
   <ul>
     <br>
-    <li> Write a Test script in Shell.</li>
-    <li> To create a TestScript to analyse reliability of the Evaluation script .</li>
+    <li> Create a testScript to analyse reliability of the Evaluation script .</li>
   </ul>
 </details>
 
