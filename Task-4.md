@@ -24,7 +24,7 @@
 <details>
   <summary> Test Cases </summary>
   
-|S.NO|Test Cases|Test Case Description|Expected Result|Test Status|Output|
+|S.NO|Test Cases|Test Case Description|Expected Result|Test Status|
 |:----:|:-----:|:-----:|:-----:|:-----:|
 |1|**Published Url** |Spread sheet link published by using publish to web option from file of spreadsheet and select the .csv format |Url should be published|**PASS** |
 |2|**The path of commands  is declared in Variable** |I declared the path of commands in variables in the configuration file which i used in the script file. |Path of command should be declare in the variable |**PASS**|
