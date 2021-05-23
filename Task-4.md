@@ -620,10 +620,10 @@ fi
 
   
   
-  <details>
+<details>
 <summary> log file </summary>
  
-    Mon May 24 02:14:10 IST 2021 DOWNLOADING SHEET 1
+Mon May 24 02:14:10 IST 2021 DOWNLOADING SHEET 1
 Mon May 24 02:14:12 IST 2021SHEET1 DOWNLOADED SUCCESSFULLY
 Mon May 24 02:26:46 IST 2021 downloading sheet 1
 Mon May 24 02:26:53 IST 2021 sheet1 downloaded succesfully
@@ -680,12 +680,11 @@ Mon May 24 03:01:02 IST 2021 [count commas] count the no of commas before the Av
 Mon May 24 03:01:02 IST 2021 [commas for extract the average column] 11
 Mon May 24 03:01:02 IST 2021 [output for diffrence sheet 2] successfully diffrence showing  sheet2 the required output
   
-  </details>
+ </details>
   
  
  <details>
- 
-   <summary> Conclusion </summary>
+ <summary> Conclusion </summary>
   
   I would like to share my experience while doing this work. The given script is doing its job correctly.
   
