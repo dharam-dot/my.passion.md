@@ -48,22 +48,37 @@ In this script, first of all I copied the spreadsheet link to csv link through w
   <summary> Script </summary>
   
 #!/bin/bash
-PWD=`/usr/bin/pwd`
-#Here we given the path of configuration file using source command
-source $PWD/mytask2conf.conf
-#========================================================================================================================================================
-#function  genratelog()
-#{ if [[ $? -ne 0 ]];                                                                   #HERE FUCTIONS IS USED TO CHECK THE WORKING OF COMMANDS IF
-#       then                                                                            #ANY COMMAND GOT ANY ERROR OR SOMETHING THE FUNTION WILL
- # $ECHO "COMMAND ERROR $1" >>$log                                                      #STOP THE SCRIPT IMMEDIATELY AND AFTER THAT THE LOG
-# exit 1                                                                                        #FOR THAT PERTICULAR COMMAND WILL BE SAVED IN
-#else $ECHO $DATE $1                                                                    #LOG FILE
 
-#fi }
-#=========================================================================================================================================================
-#source /home/pradeep/task/scriptconfig.conf
-# if condition is true then print error in sheet otherwise go to the else.
-if [ $MYURL01 = $0 ]
+  PWD=`/usr/bin/pwd`
+
+  #Here we given the path of configuration file using source command
+
+  source $PWD/mytask2conf.conf
+
+  #========================================================================================================================================================
+
+  #function  genratelog()
+
+  #{ if [[ $? -ne 0 ]];                                                                   #HERE FUCTIONS IS USED TO CHECK THE WORKING OF COMMANDS IF
+
+  #then                                                                            #ANY COMMAND GOT ANY ERROR OR SOMETHING THE FUNTION WILL
+ 
+  #$ECHO "COMMAND ERROR $1" >>$log                                                      #STOP THE SCRIPT IMMEDIATELY AND AFTER THAT THE LOG
+
+  #exit 1                                                                                        #FOR THAT PERTICULAR COMMAND WILL BE SAVED IN
+
+  #else $ECHO $DATE $1                                                                    #LOG FILE
+
+
+  #fi }
+
+  #=========================================================================================================================================================
+
+  #source /home/pradeep/task/scriptconfig.conf
+
+  #if condition is true then print error in sheet otherwise go to the else.
+
+  if [ $MYURL01 = $0 ]
 
 then
 
@@ -72,105 +87,182 @@ $ECHO "This error for sheet1"
 else
 
 #$ECHO "==================First sheet output==================="
-$ECHO "==================First sheet output==================="  > $DATADIR1
+
+  $ECHO "==================First sheet output==================="  > $DATADIR1
 
 
 #Here wget command is used to download spreadsheet 1 with the help of url
-$ECHO "$(date) downloading sheet 1" >> "$log"
+
+  $ECHO "$(date) downloading sheet 1" >> "$log"
 
 $WGET $WGETOPT1 $MYURL01
 
 #genratelog
-$ECHO "$(date) sheet1 downloaded succesfully" >> "$log"
-#$ECHO "$(date) [wget command] download the csv file using wget command $WGET $WGETOPT1 $MYURL01" >> "$log"  #Collect logs in log file
 
-#Here mv command is used to rename the file
-$MV $OLDFILENAME1 $NEWFILENAME1
-$CP $NEWFILENAME1 $DATADIR
-#genratelog
-$ECHO "$(date) [mv command] It rename the downloaded file using mv command $MV $OLDFILENAME1 $NEWFILENAME1" >> "$log"  #Collect logs in log file
+  $ECHO "$(date) sheet1 downloaded succesfully" >> "$log"
 
-#Here the exact column  Intern Name is found.
-#Here $CAT is used to show the contents of a file.
-#GREP is used to find the row with a specific name.
-#-i is used to find letters whether the letter is in upercase or in lowercase.
-#Here tr command is used to translate and delete characters.
-#Here wc -c command is used to count commas.
-#The below command  shows the total number of commas.
-COUNT1=$($CAT $NEWFILENAME1 | $GREP $GREPOPT1 $NAMECOL | $AWK -F "$INTERNCOL" '{print $1}'|$TR $TROPT1 , | $WC $WCOPT1)
-#genratelog
-$ECHO "$(date) [count commas] count the no of commas before the Intern name $COUNT1" >> "$log"  #Collect logs in log file
+  #$ECHO "$(date) [wget command] download the csv file using wget command $WGET $WGETOPT1 $MYURL01" >> "$log"  #Collect logs in log file
+
+
+  #Here mv command is used to rename the file
+
+  $MV $OLDFILENAME1 $NEWFILENAME1
+
+  $CP $NEWFILENAME1 $DATADIR
+
+  #genratelog
+
+  $ECHO "$(date) [mv command] It rename the downloaded file using mv command $MV $OLDFILENAME1 $NEWFILENAME1" >> "$log"  #Collect logs in log file
+
+
+  #Here the exact column  Intern Name is found.
+
+  #Here $CAT is used to show the contents of a file.
+
+  #GREP is used to find the row with a specific name.
+
+  #-i is used to find letters whether the letter is in upercase or in lowercase.
+
+  #Here tr command is used to translate and delete characters.
+
+  #Here wc -c command is used to count commas.
+
+  #The below command  shows the total number of commas.
+
+  COUNT1=$($CAT $NEWFILENAME1 | $GREP $GREPOPT1 $NAMECOL | $AWK -F "$INTERNCOL" '{print $1}'|$TR $TROPT1 , | $WC $WCOPT1)
+
+  #genratelog
+
+  $ECHO "$(date) [count commas] count the no of commas before the Intern name $COUNT1" >> "$log"  #Collect logs in log file
 
 #ADD1 is used to add 1 to the total number of commas.
-ADD1=1
-#genratelog
-$ECHO "$(date) [add 1 in the previous result of commas] $ADD1" >> "$log"  #Collect logs in log file
+
+  ADD1=1
+
+  #genratelog
+
+  $ECHO "$(date) [add 1 in the previous result of commas] $ADD1" >> "$log"  #Collect logs in log file
 
 #PLUS1 is used to get the exact column no.
-PLUS1=$((COUNT1+ADD1))
-#genratelog
-$ECHO "$(date)  [total commas for extract the Intern name column ] $PLUS1" >> "$log"  #Collect logs in log file
+
+  PLUS1=$((COUNT1+ADD1))
+
+  #genratelog
+
+  $ECHO "$(date)  [total commas for extract the Intern name column ] $PLUS1" >> "$log"  #Collect logs in log file
 
 $ECHO "Afetr adding 1 total commas before Intern Name column $PLUS1"
 
 #Here the exact column Average is found.
-#Here $CAT is used to show the contents of a file.
-#GREP is used to find the row with a specific name.
-#-i is used to find letters whether the letter is in upercase or in lowercase.
-#Here tr command is used to translate and delete characters.
-#Here wc -c command is used to count commas.
-#The below command shows the total number of commas.
-COUNT2=$($CAT $NEWFILENAME1 | $GREP $GREPOPT1 $avgcolumn | $AWK $AWKOPT1 "$AVGCOLUMN" '{print $1}'|$TR $TROPT1 , | $WC $WCOPT1)
-#genratelog
-$ECHO "$(date) [count commas] count the no of commas before the Average $COUNT2" >> "$log"  #Collect logs in log file
+
+  #Here $CAT is used to show the contents of a file.
+
+  #GREP is used to find the row with a specific name.
+
+  #-i is used to find letters whether the letter is in upercase or in lowercase.
+  
+
+  #Here tr command is used to translate and delete characters.
+
+  #Here wc -c command is used to count commas.
+
+  #The below command shows the total number of commas.
+
+  COUNT2=$($CAT $NEWFILENAME1 | $GREP $GREPOPT1 $avgcolumn | $AWK $AWKOPT1 "$AVGCOLUMN" '{print $1}'|$TR $TROPT1 , | $WC $WCOPT1)
+
+  #genratelog
+
+  $ECHO "$(date) [count commas] count the no of commas before the Average $COUNT2" >> "$log"  #Collect logs in log file
 
 #ADD2 is used to add 1 to the total number of commas.
-ADD2=1
-#genratelog
-$ECHO "$(date) [add 1 in the total no of commas before average column to get the exact average column] $ADD2" >> "$log"  #Collect logs in log file
+
+  ADD2=1
+
+  #genratelog
+
+  $ECHO "$(date) [add 1 in the total no of commas before average column to get the exact average column] $ADD2" >> "$log"  #Collect logs in log file
 
 #PLUS2 is used to get the exact column no.
-PLUS2=$((COUNT2+ADD2))
-#genratelog
-$ECHO "$(date) [commas for extract the average column] $PLUS2" >> "$log"  #Collect logs in log file
+
+  PLUS2=$((COUNT2+ADD2))
+
+  #genratelog
+
+  $ECHO "$(date) [commas for extract the average column] $PLUS2" >> "$log"  #Collect logs in log file
 
 $ECHO "After adding 1 total commas before Average column $PLUS2"
-###########################
-$ECHO "Without adding 1 total commas before Intern Name $COUNT1"
-$ECHO "Without adding 1 total commas before Average $COUNT2"
-AUTOMUL=$((COUNT2-COUNT1))
-$ECHO "diffrence of Intern name and Average$AUTOMUL"
-VAL1=1
-ACTVAL=$((AUTOMUL-VAL1))
-$ECHO "pls multiply by this numbere=$ACTVAL"
-###########################
-#========================================================================================================================#
-#Here $ cat is used to show the contents of a file.
-#$TAIL -n + 4 is used to not show the beginning 4 line of the file.
-#$AWK is used to extract the required column and print the Name Sum and Average.
-#Extracting value from average1 $ PLUS1
-#extracting value from name1 $ PLUS2
-#Extracting value from x $ value1
-$CAT $NEWFILENAME1 | $TAIL -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "Sum : ",$average1*z, "\n", "Avg : ",$average1, "\n"}' name1=$PLUS1 average1=$PLUS2 z=$ACTVAL >> $DATADIR1
-#output1=`$CAT $NEWFILENAME1 | $TAIL -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "Sum : ",$average1*z, "\n", "Avg : ",$average1, "\n"}' name1=$PLUS1 average1=$PLUS2 z=$ACTVAL`
-#genratelog
-#$ECHO "$output1" >> $DATADIR1
-#$ECHO "$(date) [output for sheet 1] successfully print sheet1 the required output" >> "$log"  #Collect logs in log file
-fi
+
+  ###########################
+
+  $ECHO "Without adding 1 total commas before Intern Name $COUNT1"
+
+  $ECHO "Without adding 1 total commas before Average $COUNT2"
+
+  AUTOMUL=$((COUNT2-COUNT1))
+
+  $ECHO "diffrence of Intern name and Average$AUTOMUL"
+
+  VAL1=1
+
+  ACTVAL=$((AUTOMUL-VAL1))
+
+  $ECHO "pls multiply by this numbere=$ACTVAL"
+
+  ###########################
+
+  #========================================================================================================================#
+
+  #Here $ cat is used to show the contents of a file.
+
+  #$TAIL -n + 4 is used to not show the beginning 4 line of the file.
+
+  #$AWK is used to extract the required column and print the Name Sum and Average.
+
+  #Extracting value from average1 $ PLUS1
+
+  #extracting value from name1 $ PLUS2
+
+  #Extracting value from x $ value1
+
+  $CAT $NEWFILENAME1 | $TAIL -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "Sum : ",$average1*z, "\n", "Avg : ",$average1, "\n"}' name1=$PLUS1 average1=$PLUS2 z=$ACTVAL >> 
+  $DATADIR1
+
+  #output1=`$CAT $NEWFILENAME1 | $TAIL -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "Sum : ",$average1*z, "\n", "Avg : ",$average1, "\n"}' name1=$PLUS1 average1=$PLUS2 
+  z=$ACTVAL`
+
+  #genratelog
+
+  #$ECHO "$output1" >> $DATADIR1
+
+  #$ECHO "$(date) [output for sheet 1] successfully print sheet1 the required output" >> "$log"  #Collect logs in log file
+
+  fi
+  
 #diff -y /home/pradeep/mytask1/datafile23/output11.txt /home/pradeep/mytask2/datafile24/output20.txt
-$DIFF -y $OLD_DATA_FILE_PATH1 $NEW_DATA_FILE_PATH1
+
+  $DIFF -y $OLD_DATA_FILE_PATH1 $NEW_DATA_FILE_PATH1
+  
 #genratelog
-$ECHO "$(date) [output for diffrence sheet 1] successfully diffrence showing  sheet1 the required output" >> "$log"  #Collect logs in log file
-if [[ $? -eq 0 ]];
-then
- echo "=======================Pass match found========================="
-else
-echo "=====================Fail match not found========================"
-fi
+
+  $ECHO "$(date) [output for diffrence sheet 1] successfully diffrence showing  sheet1 the required output" >> "$log"  #Collect logs in log file
+
+  if [[ $? -eq 0 ]];
+
+  then
+ 
+  echo "=======================Pass match found========================="
+
+  else
+
+  echo "=====================Fail match not found========================"
+
+  fi
 
 ###############################################################################################################################################################
-##############################################################################################################################################################
-if [ $MYURL02 = $0 ]
+
+  ##############################################################################################################################################################
+
+  if [ $MYURL02 = $0 ]
 
 then
 
@@ -179,101 +271,162 @@ $ECHO "This error for sheet2"
 else
 
 #$ECHO "==================Second sheet output==================="
-$ECHO "==================Second sheet output===================" > $DATADIR2
+
+  $ECHO "==================Second sheet output===================" > $DATADIR2
 
 #Here wget command is used to download spreadsheet 1 with the help of url
-$WGET $WGETOPT1 $MYURL02
-#genratelog
-$ECHO "$(date) [wget command] download the csv file using wget command $WGET $WGETOPT1 $MYURL02" >> "$log" #Collect logs in log file
+
+  $WGET $WGETOPT1 $MYURL02
+
+  #genratelog
+
+  $ECHO "$(date) [wget command] download the csv file using wget command $WGET $WGETOPT1 $MYURL02" >> "$log" #Collect logs in log file
 
 #Here mv command is used to rename the file
-$MV $OLDFILENAME2 $NEWFILENAME2
-$CP $NEWFILENAME2 $DATADIR
-#genratelog
-$ECHO "$(date) [mv command] download sheet2 csv file using mv command $MV $OLDFILENAME2 $NEWFILENAME2" >> "$log"  #Collect logs in log file
+
+  $MV $OLDFILENAME2 $NEWFILENAME2
+
+  $CP $NEWFILENAME2 $DATADIR
+
+  #genratelog
+
+  $ECHO "$(date) [mv command] download sheet2 csv file using mv command $MV $OLDFILENAME2 $NEWFILENAME2" >> "$log"  #Collect logs in log file
 
 #Here the exact column  Intern Name is found.
-#Here $CAT is used to show the contents of a file.
-#GREP is used to find the row with a specific name.
-#-i is used to find letters whether the letter is in upercase or in lowercase.
-#Here tr command is used to translate and delete characters.
-#Here wc -c command is used to count commas.
-#The below command shows the total number of commas.
-COUNT11=$($CAT $NEWFILENAME2 | $GREP $GREPOPT1 $NAMECOL | $AWK $AWKOPT1 "Intern Name" '{print $1}'|$TR $TROPT1 , | $WC $WCOPT1)
-#genratelog
-$ECHO "$(date) [count comma for intername] count the no of commas before the Intern name $COUNT11" >> "$log"  #Collect logs in log file
 
-#ADD11 is used to add 1 to the total number of commas.
-ADD11=1
-#genratelog
-$ECHO "$(date) [add 1 in the total no of commas before Intern name column to get the exact Intern name column] $ADD11" >> "$log"
+  #Here $CAT is used to show the contents of a file.
+
+  #GREP is used to find the row with a specific name.
+
+  #-i is used to find letters whether the letter is in upercase or in lowercase.
+
+  #Here tr command is used to translate and delete characters.
+
+  #Here wc -c command is used to count commas.
+
+  #The below command shows the total number of commas.
+
+  COUNT11=$($CAT $NEWFILENAME2 | $GREP $GREPOPT1 $NAMECOL | $AWK $AWKOPT1 "Intern Name" '{print $1}'|$TR $TROPT1 , | $WC $WCOPT1)
+
+  #genratelog
+
+  $ECHO "$(date) [count comma for intername] count the no of commas before the Intern name $COUNT11" >> "$log"  #Collect logs in log file
+
+
+  #ADD11 is used to add 1 to the total number of commas.
+
+  ADD11=1
+
+  #genratelog
+
+  $ECHO "$(date) [add 1 in the total no of commas before Intern name column to get the exact Intern name column] $ADD11" >> "$log"
 
 #PLUS11 is used to get the exact column no.
-PLUS11=$((COUNT11+ADD11))
-#genratelog
-$ECHO "$(date)  [total commas for intername] download sheet2 csv file using this command $PLUS11" >> "$log"  #Collect logs in log file
+
+  PLUS11=$((COUNT11+ADD11))
+
+  #genratelog
+
+  $ECHO "$(date)  [total commas for intername] download sheet2 csv file using this command $PLUS11" >> "$log"  #Collect logs in log file
 
 $ECHO "Afetr adding 1 total commas before Intern Name column $PLUS11"
 
 #Here the exact column Average is found.
-#Here $CAT is used to show the contents of a file.
-#GREP is used to find the row with a specific name.
-#-i is used to find letters whether the letter is in upercase or in lowercase.
-#Here tr command is used to translate and delete characters.
-#Here wc -c command is used to count commas.
-#The below commands shows the total number of commas.
-COUNT22=$($CAT $NEWFILENAME2 | $GREP $GREPOPT1 $avgcolumn | $AWK $AWKOPT1 "$AVGCOLUMN" '{print $1}'|$TR $TROPT1 , | $WC $WCOPT1)
-#genratelog
-$ECHO "$(date) [count commas] count the no of commas before the Average $COUNT22" >> "$log"  #Collect logs in log file
+
+  #Here $CAT is used to show the contents of a file.
+
+  #GREP is used to find the row with a specific name.
+
+  #-i is used to find letters whether the letter is in upercase or in lowercase.
+
+  #Here tr command is used to translate and delete characters.
+
+  #Here wc -c command is used to count commas.
+
+  #The below commands shows the total number of commas.
+
+  COUNT22=$($CAT $NEWFILENAME2 | $GREP $GREPOPT1 $avgcolumn | $AWK $AWKOPT1 "$AVGCOLUMN" '{print $1}'|$TR $TROPT1 , | $WC $WCOPT1)
+
+  #genratelog
+
+  $ECHO "$(date) [count commas] count the no of commas before the Average $COUNT22" >> "$log"  #Collect logs in log file
 
 #ADD22 is used to add 1 to the total number of commas.
-ADD22=1
+
+  ADD22=1
 
 #$ECHO "$(date) [add 1 for Average] download sheet2 csv file using this command $ADD22" >> "$log"  #Collect logs in log file
 
 #PLUS22 is used to get the exact column no.
-PLUS22=$((COUNT22+ADD22))
-#genratelog
-$ECHO "$(date) [commas for extract the average column] $PLUS22" >> "$log"  #Collect logs in log file
+
+  PLUS22=$((COUNT22+ADD22))
+
+  #genratelog
+
+  $ECHO "$(date) [commas for extract the average column] $PLUS22" >> "$log"  #Collect logs in log file
 
 $ECHO "After adding 1 total commas before Average column $PLUS22"
 
 #========================================================================================================================#
 
 $ECHO "Without adding 1 total commas before Intern Name $COUNT11"
-$ECHO "Without adding 1 total commas before Average $COUNT22"
-AUTOMUL1=$((COUNT22-COUNT11))
-$ECHO "diffrence of Intern name and Average$AUTOMUL1"
-VAL2=1
-ACTVAL1=$((AUTOMUL1-VAL2))
-$ECHO "pls multiply by this numbere=$ACTVAL1"
+
+  $ECHO "Without adding 1 total commas before Average $COUNT22"
+
+  AUTOMUL1=$((COUNT22-COUNT11))
+
+  $ECHO "diffrence of Intern name and Average$AUTOMUL1"
+
+  VAL2=1
+
+  ACTVAL1=$((AUTOMUL1-VAL2))
+
+  $ECHO "pls multiply by this numbere=$ACTVAL1"
 
 #========================================================================================================================#
 
 #Here $ cat is used to show the contents of a file.
-#$TAIL -n + 4 is used to not show the beginning 4 line of the file.
-#$AWK is used to extract the required column and print the Name Sum and Average.
-#Extracting value from average1 $ PLUS11
-#extracting value from name1 $ PLUS22
-#Extracting value from x $ value2
-$CAT $NEWFILENAME2 | $TAIL -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*s, "\n", "Avg : ",$average1, "\n"}' name1=$PLUS11 average1=$PLUS22 s=$ACTVAL1 >> $DATADIR2
-#output2=`$CAT $NEWFILENAME2 | $TAIL -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*s, "\n", "Avg : ",$average1, "\n"}' name1=$PLUS11 average1=$PLUS22 s=$ACTVAL1`
-#$ECHO "$output2" >> $DATADIR2
 
-#$ECHO "$(date) [output for sheet 2] successfully print sheet2 the required output" >> "$log"  #Collect logs in log file
+  #$TAIL -n + 4 is used to not show the beginning 4 line of the file.
+
+  #$AWK is used to extract the required column and print the Name Sum and Average.
+
+  #Extracting value from average1 $ PLUS11
+
+  #extracting value from name1 $ PLUS22
+
+  #Extracting value from x $ value2
+
+  $CAT $NEWFILENAME2 | $TAIL -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*s, "\n", "Avg : ",$average1, "\n"}' name1=$PLUS11 average1=$PLUS22 s=$ACTVAL1 >> $DATADIR2
+
+  #output2=`$CAT $NEWFILENAME2 | $TAIL -n+4 | awk -F "," '{print "Name : ",$name1, "\n", "SUM : ",$average1*s, "\n", "Avg : ",$average1, "\n"}' name1=$PLUS11 average1=$PLUS22 s=$ACTVAL1`
+
+  #$ECHO "$output2" >> $DATADIR2
+
+
+  #$ECHO "$(date) [output for sheet 2] successfully print sheet2 the required output" >> "$log"  #Collect logs in log file
 
 fi
 
 #diff -y /home/pradeep/mytask1/datafile23/output12.txt /home/pradeep/mytask2/datafile24/output21.txt
-$DIFF -y $OLD_DATA_FILE_PATH2 $NEW_DATA_FILE_PATH2
-#genratelog
-$ECHO "$(date) [output for diffrence sheet 2] successfully diffrence showing  sheet2 the required output" >> "$log"  #Collect logs in log file
-if [[ $? -eq 0 ]];
-then
- echo "===============Pass match found================="
-else
-echo "==============Fail match not found==============="
-fi
+
+  $DIFF -y $OLD_DATA_FILE_PATH2 $NEW_DATA_FILE_PATH2
+
+  #genratelog
+
+  $ECHO "$(date) [output for diffrence sheet 2] successfully diffrence showing  sheet2 the required output" >> "$log"  #Collect logs in log file
+
+  if [[ $? -eq 0 ]];
+
+  then
+ 
+  echo "===============Pass match found================="
+
+  else
+
+  echo "==============Fail match not found==============="
+
+  fi
 
   
  </details>
