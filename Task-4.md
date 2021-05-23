@@ -15,8 +15,6 @@
     <br>
     <li> Test cases</li>
     <li> Implementation </li>
-    <li> Script </li>
-    <li> Configuration File </li>
     <li> Conclusion  </li>
   </ul>
   </details>
