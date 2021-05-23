@@ -35,7 +35,9 @@
 |7 |**Adding the row in the spreadsheet** |Add the row in the spreadsheet and gives the word in all the columns |Output should be updated |**PASS** |
 |8 |**log file** |when script run all logs genrate in log file |log should be genrated successfully in log file |**pass** |
   
-  
+</details>
+
+
 <details>
   <summary> Implementation </summary>
   
