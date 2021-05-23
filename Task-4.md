@@ -9,6 +9,7 @@
   </ul>
 </details>
 
+<details>
 <summary> INDEX </summary>
   <ul>
     <br>
