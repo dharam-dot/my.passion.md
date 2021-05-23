@@ -616,7 +616,7 @@ fi
   NEW_DATA_FILE_PATH1=/home/pradeep/mytask2/datafile24/output20.txt
 
   NEW_DATA_FILE_PATH2=/home/pradeep/mytask2/datafile24/output21.txt
-
+</details>
 
   
   
