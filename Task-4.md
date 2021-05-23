@@ -34,3 +34,10 @@
 |6 |**Adding the column in the spreadsheet** |Add the column in the spreadsheet and gives the word to all students |Output should be updated |**PASS** |
 |7 |**Adding the row in the spreadsheet** |Add the row in the spreadsheet and gives the word in all the columns |Output should be updated |**PASS** |
 |8 |**log file** |when script run all logs genrate in log file |log should be genrated successfully in log file |**pass** |
+  
+  <details>
+  <summary> Implementation </summary>
+  
+To check all test parameters we have to create a new test script. In the first step we have downloaded the google sheet & added some content from previos evaluation script so that the test script can generate same kind of data formate to test or compair the output of both scripts. After that the generated output data will store in Result data named folder. Now after that we will compair Script data file and Test data file using diff command.
+  
+  </details>
