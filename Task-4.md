@@ -617,7 +617,10 @@ fi
 
   NEW_DATA_FILE_PATH2=/home/pradeep/mytask2/datafile24/output21.txt
 
-<details>
+
+  
+  
+  <details>
 <summary> log file </summary>
  
     Mon May 24 02:14:10 IST 2021 DOWNLOADING SHEET 1
@@ -681,7 +684,8 @@ Mon May 24 03:01:02 IST 2021 [output for diffrence sheet 2] successfully diffren
   
  
  <details>
- <summary> Conclusion </summary>
+ 
+   <summary> Conclusion </summary>
   
   I would like to share my experience while doing this work. The given script is doing its job correctly.
   
