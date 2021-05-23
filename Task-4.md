@@ -16,6 +16,7 @@
     <li> Implementation </li>
     <li> script </li>
     <li> Configuration file </>
+      <li> log file </>
     <li> Conclusion  </li>
   </ul>
   </details>
@@ -619,6 +620,69 @@ fi
 
 #==================================================================================================================================================
 
+  
+  <details>
+  <summary> log file </summary>
+  Mon May 24 02:14:10 IST 2021 DOWNLOADING SHEET 1
+Mon May 24 02:14:12 IST 2021SHEET1 DOWNLOADED SUCCESSFULLY
+Mon May 24 02:26:46 IST 2021 downloading sheet 1
+Mon May 24 02:26:53 IST 2021 sheet1 downloaded succesfully
+Mon May 24 02:26:53 IST 2021 [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/pradeep/mytask2/pub?output=csv /home/pradeep/mytask2/sheet1.csv
+Mon May 24 02:26:53 IST 2021 [count commas] count the no of commas before the Intern name 1
+Mon May 24 02:26:53 IST 2021 [add 1 in the previous result of commas] 1
+Mon May 24 02:26:53 IST 2021  [total commas for extract the Intern name column ] 2
+Mon May 24 02:26:53 IST 2021 [count commas] count the no of commas before the Average 10
+Mon May 24 02:26:53 IST 2021 [add 1 in the total no of commas before average column to get the exact average column] 1
+Mon May 24 02:26:53 IST 2021 [commas for extract the average column] 11
+Mon May 24 02:26:53 IST 2021 [output for diffrence sheet 1] successfully diffrence showing  sheet1 the required output
+Mon May 24 02:26:56 IST 2021 [wget command] download the csv file using wget command /usr/bin/wget -q https://docs.google.com/spreadsheets/d/e/2PACX-1vSEjogtwoNCCLzmjLHSegdJXH-icphTYJfzpAGC7WYOBPqgkwXNgcC3HQGpfU4tP-Jf8KUTVOHBloX6/pub?output=csv
+Mon May 24 02:26:56 IST 2021 [mv command] download sheet2 csv file using mv command /usr/bin/mv /home/pradeep/mytask2/pub?output=csv /home/pradeep/mytask2/sheet2.csv
+Mon May 24 02:26:56 IST 2021 [count comma for intername] count the no of commas before the Intern name 1
+Mon May 24 02:26:56 IST 2021 [add 1 in the total no of commas before Intern name column to get the exact Intern name column] 1
+Mon May 24 02:26:56 IST 2021  [total commas for intername] download sheet2 csv file using this command 2
+Mon May 24 02:26:56 IST 2021 [count commas] count the no of commas before the Average 10
+Mon May 24 02:26:56 IST 2021 [commas for extract the average column] 11
+Mon May 24 02:26:56 IST 2021 [output for diffrence sheet 2] successfully diffrence showing  sheet2 the required output
+Mon May 24 02:29:58 IST 2021 downloading sheet 1
+Mon May 24 02:30:05 IST 2021 sheet1 downloaded succesfully
+Mon May 24 02:30:05 IST 2021 [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/pradeep/mytask2/pub?output=csv /home/pradeep/mytask2/sheet1.csv
+Mon May 24 02:30:05 IST 2021 [count commas] count the no of commas before the Intern name 1
+Mon May 24 02:30:05 IST 2021 [add 1 in the previous result of commas] 1
+Mon May 24 02:30:05 IST 2021  [total commas for extract the Intern name column ] 2
+Mon May 24 02:30:05 IST 2021 [count commas] count the no of commas before the Average 10
+Mon May 24 02:30:05 IST 2021 [add 1 in the total no of commas before average column to get the exact average column] 1
+Mon May 24 02:30:05 IST 2021 [commas for extract the average column] 11
+Mon May 24 02:30:05 IST 2021 [output for diffrence sheet 1] successfully diffrence showing  sheet1 the required output
+Mon May 24 02:30:07 IST 2021 [wget command] download the csv file using wget command /usr/bin/wget -q https://docs.google.com/spreadsheets/d/e/2PACX-1vSEjogtwoNCCLzmjLHSegdJXH-icphTYJfzpAGC7WYOBPqgkwXNgcC3HQGpfU4tP-Jf8KUTVOHBloX6/pub?output=csv
+Mon May 24 02:30:07 IST 2021 [mv command] download sheet2 csv file using mv command /usr/bin/mv /home/pradeep/mytask2/pub?output=csv /home/pradeep/mytask2/sheet2.csv
+Mon May 24 02:30:07 IST 2021 [count comma for intername] count the no of commas before the Intern name 1
+Mon May 24 02:30:07 IST 2021 [add 1 in the total no of commas before Intern name column to get the exact Intern name column] 1
+Mon May 24 02:30:07 IST 2021  [total commas for intername] download sheet2 csv file using this command 2
+Mon May 24 02:30:07 IST 2021 [count commas] count the no of commas before the Average 10
+Mon May 24 02:30:07 IST 2021 [commas for extract the average column] 11
+Mon May 24 02:30:07 IST 2021 [output for diffrence sheet 2] successfully diffrence showing  sheet2 the required output
+Mon May 24 03:00:56 IST 2021 downloading sheet 1
+Mon May 24 03:00:59 IST 2021 sheet1 downloaded succesfully
+Mon May 24 03:00:59 IST 2021 [mv command] It rename the downloaded file using mv command /usr/bin/mv /home/pradeep/mytask2/pub?output=csv /home/pradeep/mytask2/sheet1.csv
+Mon May 24 03:00:59 IST 2021 [count commas] count the no of commas before the Intern name 1
+Mon May 24 03:00:59 IST 2021 [add 1 in the previous result of commas] 1
+Mon May 24 03:00:59 IST 2021  [total commas for extract the Intern name column ] 2
+Mon May 24 03:00:59 IST 2021 [count commas] count the no of commas before the Average 10
+Mon May 24 03:00:59 IST 2021 [add 1 in the total no of commas before average column to get the exact average column] 1
+Mon May 24 03:00:59 IST 2021 [commas for extract the average column] 11
+Mon May 24 03:00:59 IST 2021 [output for diffrence sheet 1] successfully diffrence showing  sheet1 the required output
+Mon May 24 03:01:02 IST 2021 [wget command] download the csv file using wget command /usr/bin/wget -q https://docs.google.com/spreadsheets/d/e/2PACX-1vSEjogtwoNCCLzmjLHSegdJXH-icphTYJfzpAGC7WYOBPqgkwXNgcC3HQGpfU4tP-Jf8KUTVOHBloX6/pub?output=csv
+Mon May 24 03:01:02 IST 2021 [mv command] download sheet2 csv file using mv command /usr/bin/mv /home/pradeep/mytask2/pub?output=csv /home/pradeep/mytask2/sheet2.csv
+Mon May 24 03:01:02 IST 2021 [count comma for intername] count the no of commas before the Intern name 1
+Mon May 24 03:01:02 IST 2021 [add 1 in the total no of commas before Intern name column to get the exact Intern name column] 1
+Mon May 24 03:01:02 IST 2021  [total commas for intername] download sheet2 csv file using this command 2
+Mon May 24 03:01:02 IST 2021 [count commas] count the no of commas before the Average 10
+Mon May 24 03:01:02 IST 2021 [commas for extract the average column] 11
+Mon May 24 03:01:02 IST 2021 [output for diffrence sheet 2] successfully diffrence showing  sheet2 the required output
+  
+  
+  </details>
+  
   
   </details>
  
