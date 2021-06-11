@@ -20,9 +20,9 @@
   
   Byte Order: Endianness is a computer science term that describes how data is stored. Specifically, it defines that the most critical value is included at the end of the multi byte data type. There are two types of Endianness, Big-Endian and Little-Endian
   
-  CPU(s):
+  CPU(s): This option tells how many cpu is in our machine
   
-  On-line CPU(s) list:
+  On-line CPU(s) list: 
   
   Thread(s) per core:
   
