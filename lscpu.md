@@ -41,7 +41,7 @@
   
   **Socket(s):** 
    
-  A socket is one endpoint of a two way communication link between two programs running on the network.
+  A socket is the interface between one or more cores and the memory system. 
   
   **NUMA node(s):** 
   
