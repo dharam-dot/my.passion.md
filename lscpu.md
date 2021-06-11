@@ -15,28 +15,49 @@
   ![lscpucommandoutput](https://user-images.githubusercontent.com/82143335/121646753-41fd2d00-cab3-11eb-91a5-ff48a4bd09ed.PNG)
   
   Architecture:
+  
   CPU op-mode(s):
+  
   Byte Order:
+  
   CPU(s):
+  
   On-line CPU(s) list:
+  
   Thread(s) per core:
-  Core(s) per socket: 
+  
+  Core(s) per socket:
+  
   Socket(s): 
+  
   NUMA node(s): 
+  
   Vendor ID:
   CPU family: 
+  
   Model:
+  
   Model name:
+  
   Stepping: 
+  
   CPU MHz: 
+  
   BogoMIPS:
+  
   Hypervisor vendor:
+  
   Virtualization type: 
+  
   L1d cache:
+  
   L1i cache: 
+  
   L2 cache:    
   L3 cache: 
+  
   NUMA node0 CPU(s):
+  
   Flags:
 
   </details>
