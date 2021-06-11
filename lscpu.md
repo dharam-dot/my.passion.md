@@ -16,7 +16,7 @@
   
   Architecture: This option tells which architecture our cpu is using.
   
-  CPU op-mode(s):
+  CPU op-mode(s): This option tells that our cpu supports both 32 bit or 64 bit
   
   Byte Order:
   
