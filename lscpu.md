@@ -40,6 +40,8 @@
   **Core(s) per socket:**
   
   **Socket(s):** 
+   
+  A socket is one endpoint of a two way communication link between two programs running on the network.
   
   **NUMA node(s):** 
   
