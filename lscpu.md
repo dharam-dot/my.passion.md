@@ -14,7 +14,7 @@
   
   ![lscpucommandoutput](https://user-images.githubusercontent.com/82143335/121646753-41fd2d00-cab3-11eb-91a5-ff48a4bd09ed.PNG)
   
-  Architecture:
+  Architecture: This option tells which architecture our cpu is using.
   
   CPU op-mode(s):
   
