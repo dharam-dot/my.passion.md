@@ -18,7 +18,7 @@
   
   CPU op-mode(s): This option tells that our cpu supports both 32 bit or 64 bit
   
-  Byte Order:
+  Byte Order: Endianness is a computer science term that describes how data is stored. Specifically, it defines that the most critical value is included at the end of the multi byte data type. There are two types of Endianness, Big-Endian and Little-Endian
   
   CPU(s):
   
