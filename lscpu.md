@@ -33,6 +33,7 @@
   NUMA node(s): 
   
   Vendor ID:
+  
   CPU family: 
   
   Model:
@@ -54,6 +55,7 @@
   L1i cache: 
   
   L2 cache:    
+  
   L3 cache: 
   
   NUMA node0 CPU(s):
