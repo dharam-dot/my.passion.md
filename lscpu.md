@@ -11,6 +11,7 @@
 <details>
   <summary> lscpu command output </summary>
   <h2 align="center">lscpu Command output</h2>
+  
   ![lscpucommandoutput](https://user-images.githubusercontent.com/82143335/121646753-41fd2d00-cab3-11eb-91a5-ff48a4bd09ed.PNG)
 
   </details>
