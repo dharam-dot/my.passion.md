@@ -14,17 +14,28 @@
   
   ![lscpucommandoutput](https://user-images.githubusercontent.com/82143335/121646753-41fd2d00-cab3-11eb-91a5-ff48a4bd09ed.PNG)
   
-  Architecture: This option tells which architecture our cpu is using.
+  Architecture: 
   
-  CPU op-mode(s): This option tells that our cpu supports both 32 bit or 64 bit
+  This option tells which architecture our cpu is using.
   
-  Byte Order: Endianness is a computer science term that describes how data is stored. Specifically, it defines that the most critical value is included at the end of the multi byte data type. There are two types of Endianness, Big-Endian and Little-Endian
+  CPU op-mode(s): 
   
-  CPU(s): This option tells how many cpu is in our machine
+  This option tells that our cpu supports both 32 bit or 64 bit
+  
+  Byte Order: 
+  
+  Endianness is a computer science term that describes how data is stored. Specifically, it defines that the most critical value is included at the end of the multi byte data    type. There are two types of Endianness, Big-Endian and Little-Endian
+  
+  CPU(s): 
+  
+  This option tells how many cpu is in our machine
   
   On-line CPU(s) list: 
   
-  Thread(s) per core:
+  Thread(s) per core: 
+  
+  Threads are the virtual components or codes, which divides the physical core of a CPU into virtual multiple cores. A single CPU core can have up-to 2 threads per core.
+  For example, if a CPU is dual core (i.e., 2 cores) it will have 4 threads.
   
   Core(s) per socket:
   
