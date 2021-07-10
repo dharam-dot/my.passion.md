@@ -47,7 +47,19 @@ What I use here is the ubuntu 16.04 server version of the arm64 architecture-
 <p> qemu-system-aarch64 -m 2048 -cpu cortex-a57 -smp 2 -M virt -bios QEMU_EFI.fd -nographic -drive if=none,file=ubuntu16.04-arm64.img,id=hd0 -device virtio-blk-device,drive=hd0 </p>
 
 ## What problem did I face?
+  
+  I faced gcc package installation problem.
+  
+
 ## What did you understand about that?
+   
+   I understand that for gcc package instalation no reqirement for internet.
+
 ## How did i solve it?
+ 
+ With the help of these commands i solved the gcc instalation problem.
+ 
+ apt-get -f install
+ apt install gcc
 
 **Source Link  ===>**https://www.programmersought.com/article/81835534690/
