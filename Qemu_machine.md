@@ -13,20 +13,19 @@ Ram:8 GB
 
 
 
-<h5> Step - 1 ==> To launch an aarch64 VM we first need to install a few dependencies, including QEMU and the qemu-efi-aarch64 package, which includes the efi firmware.</h5>
+<h5> Step - 1 ==> To launch an aarch64 VM we first need to install a few dependencies</h5>
 
 <p> apt-get install qemu-system-arm <br>
 apt-get install qemu-efi-aarch64 <br>
 apt-get install qemu-utils</p>
 
-
-
-
-<h5> Step - 2 ==> Create the flash images with the correct sizes.</h5>
-
-<p> dd if=/dev/zero of=flash1.img bs=1M count=64 <br>
-dd if=/dev/zero of=flash0.img bs=1M count=64 <br>
-dd if=/usr/share/qemu-efi-aarch64/QEMU_EFI.fd of=flash0.img conv=notrunc </p>
+<h5> Step - 2 ==> Install qemu-system-aarch64</h5>
+<p> wget https://download.qemu.org/qemu-2.11.0.tar.xz <br>
+  tar xvJf qemu-2.11.0.tar.xz<br>
+  cd qemu-2.11.0<br>
+./configure –-target-list=aarch64-softmmu<br>
+make<br>
+sudo make install<p>
 
 
 
