@@ -9,7 +9,7 @@ Architecture:x86_64
 Ram:8 GB
 
 
-<h1 align=center> How do we install QEMU and install an OS on QEMU?</h1>
+## How do we install QEMU and install an OS on QEMU?
 
 <h5> Step - 1- To launch an aarch64 VM we first need to install a few dependencies</h5>
 
