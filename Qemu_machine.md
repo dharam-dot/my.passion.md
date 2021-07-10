@@ -2,11 +2,11 @@
 
 Host OS version:Name="Ubuntu linux"
 
-Version="20.4"
+Version="14.4"
 
 Architecture:x86_64
 
-Ram:4gb
+Ram:8 GB
 
 
 <h1 align=center> How do we install QEMU and install an OS on QEMU?</h1>
