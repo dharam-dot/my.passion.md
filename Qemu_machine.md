@@ -60,6 +60,7 @@ What I use here is the ubuntu 16.04 server version of the arm64 architecture-
  With the help of these commands i solved the gcc instalation problem.
  
  apt-get -f install
+ 
  apt install gcc
 
 **Source Link  ===>**https://www.programmersought.com/article/81835534690/
