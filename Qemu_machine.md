@@ -32,15 +32,17 @@ sudo make install<p>
 
 <h5> Step - 3 ==> Download the image you want to boot. <br> For our example we use an Ubuntu installer.</h5>
 
-<p> wget http://ports.ubuntu.com/ubuntu-ports/dists/bionic-updates/main/installer-arm64/current/images/netboot/mini.iso </p>
+What I use here is the ubuntu 16.04 server version of the arm64 architecture-
+
+<p> wget https://old-releases.ubuntu.com/releases/16.04.3/ubuntu-16.04.3-server-amd64.iso</p>
 
 
 
 
 
-<h5> Step - 4 ==> Create the empty Ubuntu image file we will install Ubuntu into. <br> We will use 20 gigabytes for this file.</h5>
+<h5> Step - 4 ==> Create a virtual hard disk</h5>
 
-<p> qemu-img create ubuntu-image.img 20G </p>
+<p> qemu-img create ubuntu16.04-arm64.img 16G </p>
 
 
 
@@ -48,23 +50,16 @@ sudo make install<p>
 
 <h5> Step - 5 ==> Start QEMU with the installer.</h5>
 
-<p> qemu-system-aarch64 -nographic -machine virt,gic-version=max -m 512M -cpu max -smp 4 \
--netdev user,id=vnet,hostfwd=:127.0.0.1:0-:22 -device virtio-net-pci,netdev=vnet \
--drive file=ubuntu-image.img,if=none,id=drive0,cache=writeback -device virtio-blk,drive=drive0,bootindex=0 \
--drive file=mini.iso,if=none,id=drive1,cache=writeback -device virtio-blk,drive=drive1,bootindex=1 \
--drive file=flash0.img,format=raw,if=pflash -drive file=flash1.img,format=raw,if=pflash  </p>
+<p> qemu-system-aarch64 -m 2048 -cpu cortex-a57 -smp 2 -M virt -bios QEMU_EFI.fd -nographic -drive if=none,file=ubuntu-16.04.3-server-arm64.iso,id=cdrom,media=cdrom -device virtio-scsi-device -device scsi-cd,drive=cdrom -drive if=none,file=ubuntu16.04-arm64.img,id=hd0 -device virtio-blk-device,drive=hd0 </p>
 
 
 
 
 
 
-<h5> Step - 6 ==> Follow the instructions to install Ubuntu to the ubuntu-image.img file. <br> Once the install is finished you can exit QEMU with -a x. <br> Then restart QEMU without the installer image with the following command.</h5>
+<h5> Step - 6 ==> Follow the instructions to install Ubuntu to the ubuntu-image.img file.<br> Then restart QEMU without the installer image with the following command.</h5>
 
-<p> qemu-system-aarch64 -nographic -machine virt,gic-version=max -m 512M -cpu max -smp 4 \
--netdev user,id=vnet,hostfwd=:127.0.0.1:0-:22 -device virtio-net-pci,netdev=vnet \
--drive file=ubuntu-image.img,if=none,id=drive0,cache=writeback -device virtio-blk,drive=drive0,bootindex=0 \
--drive file=flash0.img,format=raw,if=pflash -drive file=flash1.img,format=raw,if=pflash  </p>
+<p> qemu-system-aarch64 -m 2048 -cpu cortex-a57 -smp 2 -M virt -bios QEMU_EFI.fd -nographic -drive if=none,file=ubuntu16.04-arm64.img,id=hd0 -device virtio-blk-device,drive=hd0 </p>
 
 
-**Source Link  ===>** https://futurewei-cloud.github.io/ARM-Datacenter/qemu/how-to-launch-aarch64-vm/
+**Source Link  ===>**https://www.programmersought.com/article/81835534690/
